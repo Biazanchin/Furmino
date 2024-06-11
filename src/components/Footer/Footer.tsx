@@ -83,15 +83,15 @@ const Footer = () => {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/3 mb-6">
                         <h2 className="text-xl font-semibold mb-6 text-gray">Newsletter</h2>
-                        <form className="flex flex-wrap" onSubmit={handleFormSubmit}>
+                        <form className="flex items-center" onSubmit={handleFormSubmit}>
                             <input
                                 type="text"
                                 placeholder="Enter Your Email Address"
                                 value={email}
                                 onChange={handleEmailChange}
-                                className={`w-full md:w-auto flex-grow px-4 py-2 mb-2 md:mb-0 border-b ${showError && !isValidEmail ? 'border-red-500' : 'border-black'} focus:outline-none`}
+                                className={`w-full px-4 py-2 mb-2 md:mb-0 border-b ${showError && !isValidEmail ? 'border-red-500' : 'border-black'} focus:outline-none`}
                             />
-                            <button type="submit" className="px-4 py-2 border-b border-black md:ml-2 hover:text-primary">
+                            <button type="submit" className={`md:px-4 md:py-2 py-1 border-b border-black hover:text-primary md:ml-2 md:mt-0`}>
                                 SUBSCRIBE
                             </button>
                         </form>
