@@ -1,5 +1,6 @@
 function App() {
-  return <>Primeito Commit</>;
+  return <>
+  </>;
 }
 
 export default App;

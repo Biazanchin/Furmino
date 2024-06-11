@@ -1,9 +1,24 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "poppins": ["Poppins", ...defaultTheme.fontFamily.sans],
+        "montserrat": ["Montserrat", ...defaultTheme.fontFamily.sans]
+      },
+      colors: {
+        primary: "#B88E2F",
+        pink: "#F6D8C6",
+        gray: "#9F9F9F",
+        "light-gray": "#D9D9D9"
+      },
+      backgroundImage: {
+        "thumb": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/thumb.png')",
+      },
+    },
   },
   plugins: [],
 };
