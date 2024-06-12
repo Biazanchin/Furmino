@@ -33,7 +33,7 @@ const Footer = () => {
 
 
     return (
-        <footer className="py-10">
+        <footer className="py-10 border-t-2 border-light-gray">
             <div className="container mx-auto px-4 font-poppins">
                 <div className="flex flex-wrap justify-between">
                     <div className="w-full md:w-1/3 lg:w-1/4 mb-6">
@@ -67,18 +67,18 @@ const Footer = () => {
                     <div className="w-full md:w-1/4 lg:w-1/6 mb-6">
                         <h2 className="text-xl font-semibold mb-10 text-gray" >Links</h2>
                         <ul className="space-y-8">
-                            <li><a href="#" className="hover:text-primary">Home</a></li>
-                            <li><a href="#" className="hover:text-primary">Shop</a></li>
-                            <li><a href="#" className="hover:text-primary">About</a></li>
-                            <li><a href="#" className="hover:text-primary">Contact</a></li>
+                            <li><a href="/" className="hover:text-primary">Home</a></li>
+                            <li><a href="/shop" className="hover:text-primary">Shop</a></li>
+                            <li><a href="/about" className="hover:text-primary">About</a></li>
+                            <li><a href="/contact" className="hover:text-primary">Contact</a></li>
                         </ul>
                     </div>
                     <div className="w-full md:w-1/4 lg:w-1/6 mb-6">
                         <h2 className="text-xl font-semibold mb-10 text-gray" >Help</h2>
                         <ul className="space-y-8">
-                            <li><a href="#" className="hover:text-primary">Payment Options</a></li>
-                            <li><a href="#" className="hover:text-primary">Returns</a></li>
-                            <li><a href="#" className="hover:text-primary">Privacy Policies</a></li>
+                            <li><a href="/payment" className="hover:text-primary">Payment Options</a></li>
+                            <li><a href="/returns" className="hover:text-primary">Returns</a></li>
+                            <li><a href="/policies" className="hover:text-primary">Privacy Policies</a></li>
                         </ul>
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/3 mb-6">
