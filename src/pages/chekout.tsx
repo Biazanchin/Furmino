@@ -1,7 +1,10 @@
+import Fundo from "../components/Fundo/Fundo"
 
 const Chekout = () => {
   return (
-    <div>chekout</div>
+    <div>
+      <Fundo children="Checkout"/>
+    </div>
   )
 }
 

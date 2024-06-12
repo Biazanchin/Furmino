@@ -1,6 +1,6 @@
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Navigate } from "react-router-dom";
-import { auth } from "./seu-arquivo-de-configuracao-do-firebase"; // Esperando Talita me ajudar
+import { auth } from "../../services/Firebase/FirebaseAuth";
 
 type RouterProps = {
   children: React.ReactNode;

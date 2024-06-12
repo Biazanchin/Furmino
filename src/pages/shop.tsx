@@ -1,6 +1,10 @@
+import Fundo from "../components/Fundo/Fundo"
+
 const Shop = () => {
   return (
-    <div>shop</div>
+    <div>
+      <Fundo children="Shop"/>
+    </div>
   )
 }
 

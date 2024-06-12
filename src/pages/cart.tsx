@@ -1,6 +1,10 @@
+import Fundo from "../components/Fundo/Fundo"
+
 const Cart = () => {
   return (
-    <div>cart</div>
+    <div>
+      <Fundo children="Cart"/>
+    </div>
   )
 }
 

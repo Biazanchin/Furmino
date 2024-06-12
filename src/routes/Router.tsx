@@ -8,8 +8,15 @@ import Cart from "../pages/cart";
 import Chekout from "../pages/chekout";
 import Login from "../components/Login/Login";
 import Error from "../pages/error";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { Navigate } from "react-router-dom";
+import { auth } from "../services/Firebase/FirebaseAuth";
 
 export function Router() {
+    const [user, loading] = useAuthState(auth);
+
+    if (loading) return null;
+
     return (
         <Routes>
             <Route element={<Layout />}>
@@ -17,11 +24,15 @@ export function Router() {
                 <Route path="/shop" element={<Shop />} />
                 <Route path="/shop/:id" element={<ProductDetails />} />
                 <Route path="/cart" element={<Cart />} />
-                <Route path="/checkout" element={<Chekout />} />
+                {user ? (
+                    <Route path="/checkout" element={<Chekout />} />
+                ) : (
+                    <Route path="/checkout" element={<Navigate to="/login" />} />
+                )}
                 <Route path="/contact" element={<Contact />} />
             </Route>
             <Route path="/login" element={<Login/>} />
             <Route path="*" element={<Error/>} />
         </Routes>
-    )
+    );
 }

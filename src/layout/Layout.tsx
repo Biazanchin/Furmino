@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header/index";
 import Footer from "../components/Footer/Footer";
-/*import { AuthRouter } from "../components/Rotas/AuthRouter"; -> lembrar de cobrir o component*/
+import { AuthRouter } from "../components/Rotas/AuthRouter";
+
 
 export function Layout() {
   return (
-    <span>
+    <AuthRouter>
       <Header />
       <Outlet />
       <Footer />
-    </span>
+    </AuthRouter>
   );
 }

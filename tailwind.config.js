@@ -19,7 +19,8 @@ export default {
       },
       backgroundImage: {
         "thumb": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/thumb.png')",
-        "home": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/fundos/fundoHome.png')" 
+        "home": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/fundos/fundoHome.png')",
+        "back": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/fundos/fundo.png')"
       },
     },
   },
