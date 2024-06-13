@@ -46,10 +46,7 @@ function Modal({ onClose }: ModalProps) {
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log('Email:', email);
-    console.log('Password:', password);
-
+    e.preventDefault()
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       console.log('User Info: ', userCredential.user);

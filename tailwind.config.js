@@ -15,7 +15,8 @@ export default {
         gray: "#9F9F9F",
         "light-gray": "#D9D9D9",
         bege: "#FFF3E3",
-        backgroundColor: "#FCF8F3"
+        backgroundColor: "#FCF8F3",
+        "light-pink": "#FAF3EA",
       },
       backgroundImage: {
         "thumb": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/thumb.png')",
