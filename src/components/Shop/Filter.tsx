@@ -1,10 +1,29 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-const Filter = () => {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
+interface FilterProps {
+  applyFilters: (filters: { category: string; sortBy: string }) => void;
+}
 
+const Filter: React.FC<FilterProps> = ({ applyFilters }) => {
+  const [isPopupOpen, setIsPopupOpen] = useState<boolean>(false);
+  const [category, setCategory] = useState<string>("");
+  const [sortBy, setSortBy] = useState<string>("");
+ 
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
+  };
+
+  const handleCategoryChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setCategory(event.target.value);
+  };
+
+  const handleSortByChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSortBy(event.target.value);
+  };
+
+  const handleApplyButtonClick = () => {
+    applyFilters({ category, sortBy});
+    togglePopup();
   };
 
   return (
@@ -33,24 +52,22 @@ const Filter = () => {
           <div className="p-6 rounded-lg relative bg-pink">
             <button onClick={togglePopup} className="absolute top-2 right-2 text-2xl">&times;</button>
             <div className="flex flex-col space-y-4">
-              <select className="p-2 border border-gray rounded hover:scale-105">
-                <option disabled selected>Category</option>
-                <option>Sofa</option>
-                <option>Chair</option>
-                <option>Table</option>
-                <option>Pot</option>
-                <option>Mug</option>
-                <option>Bed</option>
-                <option>Lamp</option>
+              <select onChange={handleCategoryChange} className="p-2 border border-gray rounded hover:scale-105">
+                <option value="">Category</option>
+                <option value="Sofa">Sofa</option>
+                <option value="Chair">Chair</option>
+                <option value="Table">Table</option>
+                <option value="Pot">Pot</option>
+                <option value="Mug">Mug</option>
+                <option value="Bed">Bed</option>
+                <option value="Lamp">Lamp</option>
               </select>
-              <button className="p-2 border border-gray rounded bg-white hover:scale-105">Price</button>
-              <button className="p-2 border border-gray rounded bg-white hover:scale-105">A-Z</button>
-              <select className="p-2 border border-gray rounded hover:scale-105">
-                <option disabled selected>Discount</option>
-                <option>50%</option>
-                <option>30%</option>
+              <select onChange={handleSortByChange} className="p-2 border border-gray rounded hover:scale-105">
+                <option value="">Sort by</option>
+                <option value="alphabetical">Alphabetical</option>
+                <option value="price">Price</option>
               </select>
-              <button className="p-2 border border-gray rounded bg-white hover:scale-105">New</button>
+              <button onClick={handleApplyButtonClick} className="p-2 border border-gray rounded bg-light-gray hover:scale-105">Apply</button>
             </div>
           </div>
         </div>
