@@ -22,7 +22,7 @@ export function Router() {
             <Route element={<Layout />}>
                 <Route path="/" element={<Home />} />
                 <Route path="/shop" element={<Shop />} />
-                <Route path="/shop/:id" element={<ProductDetails />} />
+                <Route path="/products/:sku" element={<ProductDetails />} />
                 <Route path="/cart" element={<Cart />} />
                 {user ? (
                     <Route path="/checkout" element={<Chekout />} />

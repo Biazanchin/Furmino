@@ -17,6 +17,10 @@ export default {
         bege: "#FFF3E3",
         backgroundColor: "#FCF8F3",
         "light-pink": "#FAF3EA",
+        "lighter-gray": "#898989",
+        component: "#F4F5F7",
+        discount: "#E97171",
+        new: "#2EC1AC"
       },
       backgroundImage: {
         "thumb": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/thumb.png')",
