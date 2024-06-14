@@ -9,7 +9,7 @@ const OurProducts = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/2dab94cd-edf5-47e3-9a8f-0835778afec8");
+        const response = await fetch("https://run.mocky.io/v3/b8c85b8e-c246-4926-b643-226ead116300");
         const data = await response.json();
         setProducts(data.products);
       } catch (error) {

@@ -1,6 +1,10 @@
+import Details from "../components/Details/Details"
+
 const ProductDetails = () => {
   return (
-    <div>productDetails</div>
+    <div>
+      <Details/>
+    </div>
   )
 }
 
