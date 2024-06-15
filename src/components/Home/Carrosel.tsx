@@ -1,43 +1,37 @@
-import { useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/css';
 
-interface Slide {
-  id: number;
-  title: string;
-  subtitle: string;
-  img: string;
-}
-
-const slides: Slide[] = [
-  { id: 2, title: 'Inner Peace', subtitle: '01 - Bed Room', img: 'https://desafio3furniro.s3.us-east-2.amazonaws.com/home/carrosel1.png' },
-  { id: 1, title: 'Another Room', subtitle: 'Living Room', img: 'https://desafio3furniro.s3.us-east-2.amazonaws.com/home/carrosel2.png' },
-  { id: 3, title: 'Testing', subtitle: 'Hope that is work', img: 'https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Rectangle+26.png' },
-];
-
 const Carrossel = () => {
-  const splideRef = useRef<any>(null);
+  const [splideInstance, setSplideInstance] = useState<any>();
 
-  const handleNextClick = () => {
-    if (splideRef.current && splideRef.current.splide) {
-      splideRef.current.splide.go('>');
+  useEffect(() => {
+    if (splideInstance) { //Se a intância existe
+      splideInstance.on('mounted', () => { //.on() escuta o evento mounted(slider reparado)
+        setSplideInstance(splideInstance); //Atualiza o estado para a instância atual
+      });
+    }
+  }, [splideInstance]); //Executa toda vez que o valor for alterado
+
+  const handleNextSlide = () => {
+    if (splideInstance) {
+      splideInstance.go('>');
     }
   };
 
   return (
-    <div className="container mx-auto mt-8 lg:flex lg:items-center bg-backgroundColor">
-      <div className="lg:w-1/2 lg:mr-4">
-        <div className="text-center mb-8 lg:mb-0">
-          <h2 className="text-3xl font-bold">50+ Beautiful rooms inspiration</h2>
-          <p className="mt-2 text-gray-500">
+    <div className="mx-auto mt-8 lg:flex p-4 pb-10 lg:items-center bg-backgroundColor">
+      <div className="lg:w-1/2 lg:mr-4 px-24">
+        <div className="text-left mb-8 lg:mb-0">
+          <h2 className="text-4xl font-extrabold">50+ Beautiful rooms inspiration</h2>
+          <p className="mt-2">
             Our designer already made a lot of beautiful prototype of rooms that inspire you
           </p>
-          <button className="mt-4 px-4 py-2 bg-primary text-white font-semibold rounded">Explore More</button>
+          <button className="mt-8 px-4 py-2 bg-primary text-white font-semibold">Explore More</button>
         </div>
       </div>
-      <div className="lg:w-1/2 lg:ml-4 relative lg:h-96">
+      <div className="lg:w-4/6 lg:ml-4 relative lg:h-96">
         <Splide
-          ref={splideRef}
           options={{
             type: 'loop',
             perPage: 2.5,
@@ -50,27 +44,38 @@ const Carrossel = () => {
             gap: '1rem',
             focus: 'left',
             breakpoints: {
-              640: {
-                perPage: 1,
-                focus: 'center',
+              768: {
+                perPage: 1.5,
               },
             },
           }}
-          className="mt-2 h-full"
+          className="splide-custom"
+          onMounted={setSplideInstance}
         >
-          {slides.map((slide) => (
-            <SplideSlide key={slide.id} className="flex-shrink-0 w-2/5">
-              <div className="relative h-64 lg:h-full">
-                <img src={slide.img} alt={slide.title} className="object-cover w-full h-full" />
-                <div className="absolute bottom-0 left-0 p-4 bg-white bg-opacity-75">
-                  <p className="text-sm">{slide.subtitle}</p>
-                  <h3 className="text-xl font-semibold">{slide.title}</h3>
-                </div>
+          <SplideSlide>
+            <div className="relative h- lg:h-full">
+              <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/carrosel1.png" alt="Inner Peace" className="carousel-image" />
+              <div className="absolute bottom-4 left-10 p-6 bg-white bg-opacity-75">
+                <p className="text-sm">01 - Bed Room</p>
+                <h3 className="text-xl font-semibold">Inner Peace</h3>
               </div>
-            </SplideSlide>
-          ))}
+              <span className='bg-primary absolute right-12 bottom-4 p-2'>
+                <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png" alt="seta" />
+              </span>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="relative h-64 lg:h-full">
+              <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/carrosel2.png" alt="Another Room" className="carousel-image" />
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="relative h-64 lg:h-full">
+              <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Rectangle+26.png" alt="Dinner" className="carousel-image" />
+            </div>
+          </SplideSlide>
         </Splide>
-        <button className="absolute top-1/2 right-0 transform -translate-y-1/2" onClick={handleNextClick}>
+        <button className="absolute top-1/2 right-0 transform -translate-y-1/2" onClick={handleNextSlide}>
           <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/seta.png" alt="Next" />
         </button>
       </div>

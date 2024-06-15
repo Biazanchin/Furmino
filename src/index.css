@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.splide__pagination__page {
-    @apply bg-gray transition-colors duration-300;
+
+.splide-custom .splide__slide {
+    transform: scale(1)
 }
 
-.splide__pagination__page.is-active {
-    @apply bg-primary;
+.splide-custom .splide__pagination__page.is-active {
+    background: #B88E2F
 }
