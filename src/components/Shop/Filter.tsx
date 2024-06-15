@@ -1,28 +1,38 @@
-import React, { useState } from 'react';
+import { useState, ChangeEvent } from 'react';
 
 interface FilterProps {
-  applyFilters: (filters: { category: string; sortBy: string }) => void;
+  applyFilters: (filters: { category: string; sortBy: string, isNew: boolean}) => void;
 }
 
-const Filter: React.FC<FilterProps> = ({ applyFilters }) => {
+const Filter = ({ applyFilters }: FilterProps) => {
   const [isPopupOpen, setIsPopupOpen] = useState<boolean>(false);
   const [category, setCategory] = useState<string>("");
   const [sortBy, setSortBy] = useState<string>("");
- 
+
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
   };
 
-  const handleCategoryChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setCategory(event.target.value);
+  const handleCategoryChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const selectedCategory = event.target.value;
+    setCategory(selectedCategory);
+    setSortBy("");
+    applyFilters({ category: selectedCategory, sortBy: "", isNew: false });
   };
 
-  const handleSortByChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSortBy(event.target.value);
+  const handleSortByChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const selectedSortBy = event.target.value;
+    setSortBy(selectedSortBy);
+    setCategory("");
+    if (selectedSortBy === "new") {
+      applyFilters({ category: "", sortBy: "", isNew: true });
+    } else {
+      applyFilters({ category: "", sortBy: selectedSortBy, isNew: false });
+    }
   };
 
   const handleApplyButtonClick = () => {
-    applyFilters({ category, sortBy});
+    applyFilters({ category, sortBy, isNew: false });
     togglePopup();
   };
 
@@ -33,8 +43,8 @@ const Filter: React.FC<FilterProps> = ({ applyFilters }) => {
           <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/filtro.png" alt="Filtro" className="w-6 h-6" />
         </button>
         <span onClick={togglePopup} className="ml-2 cursor-pointer">Filter</span>
-        <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/bolinhas.png" alt="bolinhas" className="w-6 h-6 ml-4" />
-        <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/lista.png" alt="page" className="w-6 h-6 ml-4" />
+        <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/bolinhas.png" alt="bolinhas" className="cursor-pointer w-6 h-6 ml-4" />
+        <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/lista.png" alt="page" className="cursor-pointer w-6 h-6 ml-4" />
         <div className="bg-black h-6 w-0.5 ml-8 mr-4"></div>
         <span className="ml-4 text-sm">Showing 1-16 of 32 results</span>
       </div>
@@ -66,6 +76,7 @@ const Filter: React.FC<FilterProps> = ({ applyFilters }) => {
                 <option value="">Sort by</option>
                 <option value="alphabetical">Alphabetical</option>
                 <option value="price">Price</option>
+                <option value="new">New</option>
               </select>
               <button onClick={handleApplyButtonClick} className="p-2 border border-gray rounded bg-light-gray hover:scale-105">Apply</button>
             </div>
