@@ -1,9 +1,9 @@
-import Details from "../components/Details/Details"
+import SingleProduct from "../components/Details/SingleProduct"
 
 const ProductDetails = () => {
   return (
     <div>
-      <Details/>
+      <SingleProduct/>
     </div>
   )
 }

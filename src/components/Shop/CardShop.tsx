@@ -6,11 +6,12 @@ import Filter from "./Filter";
 function CardShop() {
   const [allProducts, setAllProducts] = useState<Products[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Products[]>([]);
+  const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/978b1590-629d-4bf8-9768-31d8b292b888");
+        const response = await fetch("https://run.mocky.io/v3/3b159fda-919f-4508-944e-5b47332a873f");
         const data = await response.json();
         setAllProducts(data.products);
         setFilteredProducts(data.products);
@@ -39,6 +40,10 @@ function CardShop() {
     setFilteredProducts(filtered);
   };
 
+  const handleSelectProduct = (sku: string) => {
+    setSelectedProduct(sku);
+  };
+
   return (
     <section>
       <Filter applyFilters={applyFilters} />
@@ -46,7 +51,7 @@ function CardShop() {
         <div className="text-start font-poppins max-w-screen-xl mx-auto">
           <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             {filteredProducts.map((product) => (
-              <CardItem key={product.sku} product={product} />
+              <CardItem key={product.sku} product={product} onSelectProduct={handleSelectProduct} />
             ))}
           </div>
         </div>

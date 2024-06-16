@@ -17,9 +17,9 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "black",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Chair",
             "tags": [
@@ -54,9 +54,9 @@
                 "S"
             ],
             "colors": [
-                "white",
-                "gray",
-                "yellow"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/gray.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/yellow.png"
             ],
             "category": "Chair",
             "tags": [
@@ -90,9 +90,9 @@
                 "XS"
             ],
             "colors": [
-                "beige",
-                "white",
-                "red"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/beige.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/red.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -126,8 +126,8 @@
                 "S"
             ],
             "colors": [
-                "brown",
-                "white"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png"
             ],
             "category": "Table",
             "tags": [
@@ -160,8 +160,8 @@
                 "S"
             ],
             "colors": [
-                "white",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Lamp",
             "tags": [
@@ -193,10 +193,10 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "black",
-                "white",
-                "red"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/red.png"
             ],
             "category": "Mug",
             "tags": [
@@ -229,9 +229,9 @@
                 "XL"
             ],
             "colors": [
-                "white",
-                "black",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Bed",
             "tags": [
@@ -264,10 +264,10 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "orange",
-                "brown",
-                "green"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/orange.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/green.png"
             ],
             "category": "Pot",
             "tags": [
@@ -301,9 +301,9 @@
                 "XS"
             ],
             "colors": [
-                "purple",
-                "black",
-                "yellow"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/yellow.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -337,9 +337,9 @@
                 "XS"
             ],
             "colors": [
-                "black",
-                "gray",
-                "blue"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/gray.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/blue.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -373,9 +373,9 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "black",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Chair",
             "tags": [
@@ -410,9 +410,9 @@
                 "S"
             ],
             "colors": [
-                "white",
-                "gray",
-                "yellow"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/gray.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/yellow.png"
             ],
             "category": "Chair",
             "tags": [
@@ -446,9 +446,9 @@
                 "XS"
             ],
             "colors": [
-                "beige",
-                "white",
-                "red"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/beige.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/red.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -482,8 +482,8 @@
                 "S"
             ],
             "colors": [
-                "brown",
-                "white"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png"
             ],
             "category": "Table",
             "tags": [
@@ -516,8 +516,8 @@
                 "S"
             ],
             "colors": [
-                "white",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Lamp",
             "tags": [
@@ -549,10 +549,10 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "black",
-                "white",
-                "red"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/red.png"
             ],
             "category": "Mug",
             "tags": [
@@ -585,9 +585,9 @@
                 "XL"
             ],
             "colors": [
-                "white",
-                "black",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Bed",
             "tags": [
@@ -620,10 +620,10 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "orange",
-                "brown",
-                "green"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/orange.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/green.png"
             ],
             "category": "Pot",
             "tags": [
@@ -657,9 +657,9 @@
                 "XS"
             ],
             "colors": [
-                "purple",
-                "black",
-                "yellow"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/yellow.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -693,9 +693,9 @@
                 "XS"
             ],
             "colors": [
-                "black",
-                "gray",
-                "blue"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/gray.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/blue.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -729,9 +729,9 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "black",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Chair",
             "tags": [
@@ -766,9 +766,9 @@
                 "S"
             ],
             "colors": [
-                "white",
-                "gray",
-                "yellow"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/gray.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/yellow.png"
             ],
             "category": "Chair",
             "tags": [
@@ -802,9 +802,9 @@
                 "XS"
             ],
             "colors": [
-                "beige",
-                "white",
-                "red"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/beige.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/red.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -838,8 +838,8 @@
                 "S"
             ],
             "colors": [
-                "brown",
-                "white"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png"
             ],
             "category": "Table",
             "tags": [
@@ -872,8 +872,8 @@
                 "S"
             ],
             "colors": [
-                "white",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Lamp",
             "tags": [
@@ -905,10 +905,10 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "black",
-                "white",
-                "red"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/red.png"
             ],
             "category": "Mug",
             "tags": [
@@ -941,9 +941,9 @@
                 "XL"
             ],
             "colors": [
-                "white",
-                "black",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Bed",
             "tags": [
@@ -976,10 +976,10 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "orange",
-                "brown",
-                "green"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/orange.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/green.png"
             ],
             "category": "Pot",
             "tags": [
@@ -1013,9 +1013,9 @@
                 "XS"
             ],
             "colors": [
-                "purple",
-                "black",
-                "yellow"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/yellow.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -1049,9 +1049,9 @@
                 "XS"
             ],
             "colors": [
-                "black",
-                "gray",
-                "blue"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/gray.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/blue.png"
             ],
             "category": "Sofa",
             "tags": [
@@ -1085,9 +1085,9 @@
                 "S"
             ],
             "colors": [
-                "purple",
-                "black",
-                "brown"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/purple.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/black.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/brown.png"
             ],
             "category": "Chair",
             "tags": [
@@ -1122,9 +1122,9 @@
                 "S"
             ],
             "colors": [
-                "white",
-                "gray",
-                "yellow"
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/white.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/gray.png",
+                "https://desafio3furniro.s3.us-east-2.amazonaws.com/colors/yellow.png"
             ],
             "category": "Chair",
             "tags": [

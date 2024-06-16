@@ -5,11 +5,13 @@ import CardItem from "./Cards";
 const OurProducts = () => {
   const [products, setProducts] = useState<Products[]>([]);
   const [visibleProducts] = useState<number>(8);
+  const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
+
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/978b1590-629d-4bf8-9768-31d8b292b888");
+        const response = await fetch("https://run.mocky.io/v3/3b159fda-919f-4508-944e-5b47332a873f");
         const data = await response.json();
         setProducts(data.products);
       } catch (error) {
@@ -19,6 +21,10 @@ const OurProducts = () => {
     fetchProducts();
   }, []);
 
+  const handleSelectProduct = (sku: string) => {
+    setSelectedProduct(sku);
+  };
+
   return (
     <section className="py-20 max-sm:px-4">
       <div className="text-start font-poppins max-w-screen-xl mx-auto">
@@ -27,13 +33,13 @@ const OurProducts = () => {
         </h2>
         <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {products.slice(0, visibleProducts).map((product) => (
-            <CardItem key={product.sku} product={product} />
+            <CardItem key={product.sku} product={product} onSelectProduct={handleSelectProduct} />
           ))}
         </div>
           <div className="text-center mt-8">
             <a 
              href="/shop"
-              className="border border-primary text-primary px-10 py-2"
+              className="border border-primary text-primary px-10 py-2 hover:text-white hover:bg-primary transition duration-300"
             >
               Show More
             </a>

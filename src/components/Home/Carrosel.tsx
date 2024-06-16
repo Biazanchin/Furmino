@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/css';
+import { Link } from 'react-router-dom';
 
 const Carrossel = () => {
   const [splideInstance, setSplideInstance] = useState<any>();
@@ -27,7 +28,9 @@ const Carrossel = () => {
           <p className="mt-2">
             Our designer already made a lot of beautiful prototype of rooms that inspire you
           </p>
-          <button className="mt-8 px-4 py-2 bg-primary text-white font-semibold">Explore More</button>
+          <Link to='/explore'>
+            <button className="mt-8 px-4 py-2 bg-primary text-white font-semibold hover:border-primary hover:border hover:bg-white hover:text-primary transition duration-300">Explore More</button>
+          </Link>
         </div>
       </div>
       <div className="lg:w-4/6 lg:ml-4 relative lg:h-96">
@@ -60,18 +63,36 @@ const Carrossel = () => {
                 <h3 className="text-xl font-semibold">Inner Peace</h3>
               </div>
               <span className='bg-primary absolute right-12 bottom-4 p-2'>
-                <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png" alt="seta" />
+                <a href='/bed'><img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png" alt="seta" /></a>
               </span>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className="relative h-64 lg:h-full">
               <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/carrosel2.png" alt="Another Room" className="carousel-image" />
+              <div className='opacity-0 hover:opacity-100'>
+                <div className="absolute bottom-12 left-10 p-6 bg-white bg-opacity-75">
+                  <p className="text-sm">02 - Living Room</p>
+                  <h3 className="text-xl font-semibold">Hang Out</h3>
+                </div>
+                <span className='bg-primary absolute right-12 bottom-12 p-2'>
+                  <a href='/living'><img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png" alt="seta" /></a>
+                </span>
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className="relative h-64 lg:h-full">
               <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Rectangle+26.png" alt="Dinner" className="carousel-image" />
+              <div className='opacity-0 hover:opacity-100'>
+                <div className="absolute bottom-12 left-10 p-6 bg-white bg-opacity-75">
+                  <p className="text-sm">03 - Bathroom</p>
+                  <h3 className="text-xl font-semibold">Stylish</h3>
+                </div>
+                <span className='bg-primary absolute right-12 bottom-12 p-2'>
+                  <a href='/dining'><img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png" alt="seta" /></a>
+                </span>
+              </div>
             </div>
           </SplideSlide>
         </Splide>

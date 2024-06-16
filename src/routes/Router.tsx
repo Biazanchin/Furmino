@@ -30,9 +30,9 @@ export function Router() {
                     <Route path="/checkout" element={<Navigate to="/login" />} />
                 )}
                 <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<Error/>} />
             </Route>
             <Route path="/login" element={<Login/>} />
-            <Route path="*" element={<Error/>} />
         </Routes>
     );
 }
