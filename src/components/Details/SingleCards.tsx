@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Products } from "../../types/products";
-import Details from "./Details";
+import RelatedProducts from "./RelatedProducts";
 
-const SingleProduct = () => {
+const SingleCards = () => {
   const { sku } = useParams<{ sku: string }>();
   const [products, setProducts] = useState<Products[]>([]);
-  const [selectedProduct, setSelectedProduct] = useState<Products | null>(null);
+  const [relatedProducts, setRelatedProducts] = useState<Products[]>([]);
+  const [currentProduct, setCurrentProduct] = useState<Products | null>(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -15,7 +16,14 @@ const SingleProduct = () => {
         const data = await response.json();
         setProducts(data.products);
         const product = data.products.find((product: Products) => product.sku === sku);
-        setSelectedProduct(product || null);
+        setCurrentProduct(product || null);
+
+        if (product) {
+          const filteredProducts = data.products.filter(
+            (p: Products) => p.category === product.category && p.sku !== product.sku
+          );
+          setRelatedProducts(filteredProducts.slice(0, 4));
+        }
       } catch (error) {
         console.log('Error fetching products: ', error);
       }
@@ -25,11 +33,11 @@ const SingleProduct = () => {
 
   return (
     <div>
-      {selectedProduct && (
-        <Details product={selectedProduct} />
+      {currentProduct && (
+        <RelatedProducts relatedProducts={relatedProducts} />
       )}
     </div>
   );
 };
 
-export default SingleProduct;
+export default SingleCards;

@@ -6,7 +6,7 @@ export interface Products {
     onDiscount: boolean;
     discountPercentage: number;
     isNew: boolean;
-    stars: number;
+    stars: string;
     customers: number;
     size: string[];
     colors: string[];

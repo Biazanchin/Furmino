@@ -11,7 +11,7 @@ function CardShop() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/3b159fda-919f-4508-944e-5b47332a873f");
+        const response = await fetch("https://run.mocky.io/v3/162f3824-3846-489d-ba1e-f25f21f85b82");
         const data = await response.json();
         setAllProducts(data.products);
         setFilteredProducts(data.products);

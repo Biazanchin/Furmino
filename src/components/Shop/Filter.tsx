@@ -1,7 +1,7 @@
 import { useState, ChangeEvent } from 'react';
 
 interface FilterProps {
-  applyFilters: (filters: { category: string; sortBy: string, isNew: boolean}) => void;
+  applyFilters: (filters: { category: string; sortBy: string, isNew: boolean }) => void;
 }
 
 const Filter = ({ applyFilters }: FilterProps) => {
@@ -9,35 +9,34 @@ const Filter = ({ applyFilters }: FilterProps) => {
   const [category, setCategory] = useState<string>("");
   const [sortBy, setSortBy] = useState<string>("");
 
+  const [tempCategory, setTempCategory] = useState<string>("");
+  const [tempSortBy, setTempSortBy] = useState<string>("");
+
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
   };
 
   const handleCategoryChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    const selectedCategory = event.target.value;
-    setCategory(selectedCategory);
-    setSortBy("");
-    applyFilters({ category: selectedCategory, sortBy: "", isNew: false });
+    setTempCategory(event.target.value);
   };
 
   const handleSortByChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    const selectedSortBy = event.target.value;
-    setSortBy(selectedSortBy);
-    setCategory("");
-    if (selectedSortBy === "new") {
-      applyFilters({ category: "", sortBy: "", isNew: true });
-    } else {
-      applyFilters({ category: "", sortBy: selectedSortBy, isNew: false });
-    }
+    setTempSortBy(event.target.value);
   };
 
   const handleApplyButtonClick = () => {
-    applyFilters({ category, sortBy, isNew: false });
+    setCategory(tempCategory);
+    setSortBy(tempSortBy);
+
+    const isNew = tempSortBy === "new";
+    applyFilters({ category: tempCategory, sortBy: isNew ? "" : tempSortBy, isNew });
+    setTempCategory("");
+    setTempSortBy("");
     togglePopup();
   };
 
   return (
-    <div className="flex flex-col sm:flex-row items-center bg-filter p-4  pl-16 pr-16 font-poppins relative">
+    <div className="flex flex-col sm:flex-row items-center bg-filter p-4 pl-16 pr-16 font-poppins relative">
       <div className="flex items-center mb-4 sm:mb-0">
         <button onClick={togglePopup} className="focus:outline-none">
           <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/filtro.png" alt="Filtro" className="w-6 h-6" />
@@ -56,13 +55,13 @@ const Filter = ({ applyFilters }: FilterProps) => {
           Default
         </div>
       </div>
-      
+
       {isPopupOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="p-6 rounded-lg relative bg-pink">
             <button onClick={togglePopup} className="absolute top-2 right-2 text-2xl">&times;</button>
             <div className="flex flex-col space-y-4">
-              <select onChange={handleCategoryChange} className="p-2 border border-gray rounded hover:scale-105">
+              <select onChange={handleCategoryChange} className="p-2 border border-gray rounded hover:scale-105" value={tempCategory}>
                 <option value="">Category</option>
                 <option value="Sofa">Sofa</option>
                 <option value="Chair">Chair</option>
@@ -72,7 +71,7 @@ const Filter = ({ applyFilters }: FilterProps) => {
                 <option value="Bed">Bed</option>
                 <option value="Lamp">Lamp</option>
               </select>
-              <select onChange={handleSortByChange} className="p-2 border border-gray rounded hover:scale-105">
+              <select onChange={handleSortByChange} className="p-2 border border-gray rounded hover:scale-105" value={tempSortBy}>
                 <option value="">Sort by</option>
                 <option value="alphabetical">Alphabetical</option>
                 <option value="price">Price</option>

@@ -8,7 +8,7 @@
             "onDiscount": true,
             "discountPercentage": 30,
             "isNew": false,
-            "stars": 4.2,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 10,
             "size": [
                 "L",
@@ -45,7 +45,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 23,
             "size": [
                 "L",
@@ -82,7 +82,7 @@
             "onDiscount": true,
             "discountPercentage": 50,
             "isNew": false,
-            "stars": 5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/cinco.png",
             "customers": 6,
             "size": [
                 "L",
@@ -118,7 +118,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 4.5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 15,
             "size": [
                 "L",
@@ -153,7 +153,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 8,
             "size": [
                 "XS",
@@ -186,7 +186,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/cinco.png",
             "customers": 2,
             "size": [
                 "XS",
@@ -222,7 +222,7 @@
             "onDiscount": true,
             "discountPercentage": 50,
             "isNew": false,
-            "stars": 4.2,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 20,
             "size": [
                 "L",
@@ -257,7 +257,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 8,
             "size": [
                 "XS",
@@ -293,7 +293,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 4.5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 5,
             "size": [
                 "L",
@@ -329,7 +329,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/tres.png",
             "customers": 50,
             "size": [
                 "L",
@@ -364,7 +364,7 @@
             "onDiscount": true,
             "discountPercentage": 30,
             "isNew": false,
-            "stars": 4.2,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 10,
             "size": [
                 "L",
@@ -401,7 +401,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 23,
             "size": [
                 "L",
@@ -438,7 +438,7 @@
             "onDiscount": true,
             "discountPercentage": 50,
             "isNew": false,
-            "stars": 5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/cinco.png",
             "customers": 6,
             "size": [
                 "L",
@@ -474,7 +474,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 4.5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 15,
             "size": [
                 "L",
@@ -509,7 +509,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 8,
             "size": [
                 "XS",
@@ -542,7 +542,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/cinco.png",
             "customers": 2,
             "size": [
                 "XS",
@@ -578,7 +578,7 @@
             "onDiscount": true,
             "discountPercentage": 50,
             "isNew": false,
-            "stars": 4.2,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 20,
             "size": [
                 "L",
@@ -613,7 +613,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 8,
             "size": [
                 "XS",
@@ -649,7 +649,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 4.5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 5,
             "size": [
                 "L",
@@ -685,7 +685,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/tres.png",
             "customers": 50,
             "size": [
                 "L",
@@ -720,7 +720,7 @@
             "onDiscount": true,
             "discountPercentage": 30,
             "isNew": false,
-            "stars": 4.2,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 10,
             "size": [
                 "L",
@@ -757,7 +757,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 23,
             "size": [
                 "L",
@@ -794,7 +794,7 @@
             "onDiscount": true,
             "discountPercentage": 50,
             "isNew": false,
-            "stars": 5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/cinco.png",
             "customers": 6,
             "size": [
                 "L",
@@ -830,7 +830,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 4.5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 15,
             "size": [
                 "L",
@@ -865,7 +865,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 8,
             "size": [
                 "XS",
@@ -898,7 +898,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/cinco.png",
             "customers": 2,
             "size": [
                 "XS",
@@ -934,7 +934,7 @@
             "onDiscount": true,
             "discountPercentage": 50,
             "isNew": false,
-            "stars": 4.2,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 20,
             "size": [
                 "L",
@@ -969,7 +969,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": true,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 8,
             "size": [
                 "XS",
@@ -1005,7 +1005,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 4.5,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 5,
             "size": [
                 "L",
@@ -1041,7 +1041,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/tres.png",
             "customers": 50,
             "size": [
                 "L",
@@ -1076,7 +1076,7 @@
             "onDiscount": true,
             "discountPercentage": 30,
             "isNew": false,
-            "stars": 4.2,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro%26meia.png",
             "customers": 10,
             "size": [
                 "L",
@@ -1113,7 +1113,7 @@
             "onDiscount": false,
             "discountPercentage": 0,
             "isNew": false,
-            "stars": 3.9,
+            "stars": "https://desafio3furniro.s3.us-east-2.amazonaws.com/stars/quatro.png",
             "customers": 23,
             "size": [
                 "L",
