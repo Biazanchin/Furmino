@@ -7,7 +7,7 @@ import {
   GoogleAuthProvider,
   FacebookAuthProvider,
 } from 'firebase/auth';
-import { auth } from '../../services/Firebase/FirebaseAuth'; // Importar auth do seu serviço Firebase
+import { auth } from '../../services/Firebase/FirebaseAuth';
 
 interface ModalProps {
   onClose: () => void;
