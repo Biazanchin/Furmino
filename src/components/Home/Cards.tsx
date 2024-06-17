@@ -35,7 +35,7 @@ const CardItem = ({ product, onSelectProduct }: CardItemProps) => {
         </div>
         <Link
           to="/cart"
-          className="bg-white text-primary py-2 px-10 transition-opacity opacity-0 group-hover:opacity-100 absolute top-[35%] left-[20%] z-10"
+          className="bg-white text-primary py-2 px-10 transition-opacity opacity-0 group-hover:opacity-100 hover:font-bold absolute top-[35%] left-[20%] z-10"
         >
           Add to Cart
         </Link>
