@@ -32,7 +32,7 @@ const Filter = ({ applyFilters, currentPage, totalProducts, itemsPerPage }: Filt
     togglePopup();
   };
 
-  const start = (currentPage - 1) * itemsPerPage + 1;
+  const start = (currentPage - 1 ) * itemsPerPage + 1;
   const end = Math.min(currentPage * itemsPerPage, totalProducts);
 
   return (
