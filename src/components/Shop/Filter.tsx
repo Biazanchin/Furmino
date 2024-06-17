@@ -1,14 +1,14 @@
 import { useState, ChangeEvent } from 'react';
 
 interface FilterProps {
-  applyFilters: (filters: { category: string; sortBy: string, isNew: boolean }) => void;
+  applyFilters: (filters: { category: string; sortBy: string; isNew: boolean }) => void;
+  currentPage: number;
+  totalProducts: number;
+  itemsPerPage: number;
 }
 
-const Filter = ({ applyFilters }: FilterProps) => {
+const Filter = ({ applyFilters, currentPage, totalProducts, itemsPerPage }: FilterProps) => {
   const [isPopupOpen, setIsPopupOpen] = useState<boolean>(false);
-  const [category, setCategory] = useState<string>("");
-  const [sortBy, setSortBy] = useState<string>("");
-
   const [tempCategory, setTempCategory] = useState<string>("");
   const [tempSortBy, setTempSortBy] = useState<string>("");
 
@@ -25,15 +25,15 @@ const Filter = ({ applyFilters }: FilterProps) => {
   };
 
   const handleApplyButtonClick = () => {
-    setCategory(tempCategory);
-    setSortBy(tempSortBy);
-
     const isNew = tempSortBy === "new";
     applyFilters({ category: tempCategory, sortBy: isNew ? "" : tempSortBy, isNew });
     setTempCategory("");
     setTempSortBy("");
     togglePopup();
   };
+
+  const start = (currentPage - 1) * itemsPerPage + 1;
+  const end = Math.min(currentPage * itemsPerPage, totalProducts);
 
   return (
     <div className="flex flex-col sm:flex-row items-center bg-filter p-4 pl-16 pr-16 font-poppins relative">
@@ -45,11 +45,11 @@ const Filter = ({ applyFilters }: FilterProps) => {
         <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/bolinhas.png" alt="bolinhas" className="cursor-pointer w-6 h-6 ml-4" />
         <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/lista.png" alt="page" className="cursor-pointer w-6 h-6 ml-4" />
         <div className="bg-black h-6 w-0.5 ml-8 mr-4"></div>
-        <span className="ml-4 text-sm">Showing 1-16 of 32 results</span>
+        <span className="ml-4 text-sm">Showing {start}-{end} of {totalProducts} results</span>
       </div>
       <div className="flex items-center lg:ml-auto">
         <label htmlFor="show-select" className="mr-2 text-sm">Show</label>
-        <div className='mr-4 py-2 px-4 text-gray bg-white text-sm'>16</div>
+        <div className="mr-4 py-2 px-4 text-gray bg-white text-sm">{itemsPerPage}</div>
         <label htmlFor="sort-select" className="mr-2 text-sm">Sort by</label>
         <div className="bg-white text-gray py-2 pl-4 pr-10 text-sm">
           Default
