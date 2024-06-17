@@ -11,7 +11,7 @@ const SingleProduct = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/162f3824-3846-489d-ba1e-f25f21f85b82");
+        const response = await fetch("https://run.mocky.io/v3/25e80ac4-76fd-413a-9a3e-ecc026d6eb6c");
         const data = await response.json();
         setProducts(data.products);
         const product = data.products.find((product: Products) => product.sku === sku);

@@ -3,9 +3,9 @@ const Description = () => {
     <div className=" border-b-2 border-light-gray ">
       <div className="max-w-4xl mx-auto p-4">
         <div className="flex justify-center space-x-36 mt-6 mb-4">
-          <h2 className="text-2xl font-semibold">Description</h2>
+          <h2 className="text-2xl font-semibold hover:underline">Description</h2>
           <a href="/addInformation">
-            <h2 className="text-2xl text-gray">Additional Information</h2>
+            <h2 className="text-2xl text-gray hover:text-black hover:underline transition duration-100">Additional Information</h2>
           </a>
         </div>
         <div>
