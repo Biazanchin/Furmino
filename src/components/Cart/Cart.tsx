@@ -50,7 +50,7 @@ const Cart = ({ toggleCart }: CartProps) => {
           <h3 className="text-lg font-semibold">
             Subtotal:
           </h3>
-          <span className='text-primary font-semibold'>Rs. {total.toLocaleString()}</span>
+          <span className='text-primary font-semibold mr-10'>Rs. {total.toLocaleString()}</span>
         </div>
         <div className="flex p-6 border-t border-light-gray space-x-2">
           <Link
