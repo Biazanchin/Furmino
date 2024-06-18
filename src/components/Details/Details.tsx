@@ -12,9 +12,14 @@ const Details = ({ product }: DetailsProps) => {
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const [selectedColor, setSelectedColor] = useState<number | null>(null);
   const [quantity, setQuantity] = useState<number>(1);
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   const handleProductClick = () => {
     dispatch(addProductToCart(product, quantity));
+    setSuccessMessage('Product added to cart successfully!');
+    setTimeout(() => {
+      setSuccessMessage(null);
+    }, 3000);
   };
 
   const handleQuantityChange = (newQuantity: number) => {
@@ -109,6 +114,11 @@ const Details = ({ product }: DetailsProps) => {
               Add To Cart
             </button>
           </div>
+          {successMessage && (
+            <div className="text-green-500 mb-2">
+              {successMessage}
+            </div>
+          )}
           <hr className="border-gray" />
           <div className="flex flex-col sm:flex-row justify-between items-start mt-10">
             <div className="flex flex-col sm:mr-4">
