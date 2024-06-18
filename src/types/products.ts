@@ -13,5 +13,6 @@ export interface Products {
     category: string;
     tags: string[];
     imgUrl: string[];
+    quantity?: number
   }
   

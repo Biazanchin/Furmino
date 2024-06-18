@@ -1,15 +1,35 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { ActiveLink } from "./ActiveLink";
+import Cart from "../Cart/Cart";
+import { useSelector } from "react-redux";
+import { RootState } from "../../redux/root-reducer";
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isCartOpen, setIsCartOpen] = useState(false);
+    const { products } = useSelector((rootReducer: RootState) => rootReducer.cartReducer);
+
     const toggleMenu = () => {
-        setIsOpen(!isOpen);
+        setIsMenuOpen(!isMenuOpen);
+        if (isCartOpen) {
+            setIsCartOpen(false);
+        }
     };
 
+    const toggleCart = () => {
+        setIsCartOpen(!isCartOpen);
+        if (isMenuOpen) {
+            setIsMenuOpen(false);
+        }
+    };
+
+    const productsCount = useMemo(() => {
+        return products.reduce((acc, curr) => acc + curr.quantity!, 0);
+    }, [products]);
+
     return (
-        <header className="m-2">
+        <header className="fixed top-0 left-0 w-full bg-white z-50 p-2">
             <div className="container mx-auto flex justify-between items-center p-4">
                 <div className="flex items-center">
                     <Link to="/">
@@ -43,7 +63,8 @@ const Header = () => {
                     <Link to="/login">
                         <img className="cursor-pointer h-6 mx-4" src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/usuario.png" alt="usuario" />
                     </Link>
-                    <img className="cursor-pointer h-6 mx-4" src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/carrinho.png" alt="carrinho" />
+                    <img onClick={toggleCart} className="cursor-pointer h-6 mx-4" src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/carrinho.png" alt="carrinho" />
+                    {productsCount > 0 && <span>{productsCount}</span>}
                 </div>
                 <div className="lg:hidden">
                     <button onClick={toggleMenu}>
@@ -63,8 +84,8 @@ const Header = () => {
                     </button>
                 </div>
             </div>
-            {isOpen && <div className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40" onClick={toggleMenu}></div>}
-            <div className={`fixed top-0 right-0 h-full z-50 bg-white transition-transform transform ${isOpen ? "translate-x-0" : "translate-x-full"} w-3/5 lg:hidden`}>
+            {isMenuOpen && <div className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40" onClick={toggleMenu}></div>}
+            <div className={`fixed top-0 right-0 h-full z-50 bg-white transition-transform transform ${isMenuOpen ? "translate-x-0" : "translate-x-full"} w-3/5 lg:hidden`}>
                 <button onClick={toggleMenu} className="absolute top-4 right-4">
                     <svg
                         className="w-6 h-6 text-black"
@@ -101,9 +122,11 @@ const Header = () => {
                     <Link to="/login">
                         <img className="cursor-pointer h-6 mx-4" src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/usuario.png" alt="usuario" />
                     </Link>
-                    <img className="cursor-pointer h-6" src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/carrinho.png" alt="carrinho" />
+                    <img onClick={toggleCart} className="cursor-pointer h-6" src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/carrinho.png" alt="carrinho" />
+                    {productsCount > 0 && <span>{productsCount}</span>}
                 </div>
             </div>
+            {isCartOpen && <Cart toggleCart={toggleCart} />}
         </header>
     );
 };

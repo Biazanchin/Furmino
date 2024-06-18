@@ -1,10 +1,16 @@
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../../redux/root-reducer";
+import { subscribeEmailError, subscribeEmailSuccess } from "../../redux/Actions/userActions";
 
 const Footer = () => {
     const [email, setEmail] = useState('');
     const [isValidEmail, setIsValidEmail] = useState<boolean | null>(null);
     const [showError, setShowError] = useState<boolean>(false);
     const [showSuccess, setShowSuccess] = useState<boolean>(false);
+
+    const dispatch = useDispatch()
+    const {} = useSelector((state: RootState) => state.userReducer)
 
     const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const inputEmail = e.target.value;
@@ -16,13 +22,15 @@ const Footer = () => {
     const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         if (isValidEmail) {
+            dispatch(subscribeEmailSuccess());
             setEmail('');
-            setShowError(false); 
+            setShowError(false);
             setShowSuccess(true);
             setTimeout(() => {
                 setShowSuccess(false);
             }, 3000);
         } else {
+            dispatch(subscribeEmailError());
             setShowError(true);
             setShowSuccess(false);
             setTimeout(() => {
@@ -30,7 +38,6 @@ const Footer = () => {
             }, 3000);
         }
     };
-
 
     return (
         <footer className="py-10 border-t-2 border-light-gray">

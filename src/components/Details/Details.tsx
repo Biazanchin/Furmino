@@ -1,17 +1,25 @@
 import { useState } from 'react';
 import { Products } from '../../types/products';
+import { useDispatch } from 'react-redux';
+import { addProductToCart, updateProductQuantity } from '../../redux/Actions/cartActions';
 
 interface DetailsProps {
   product: Products;
 }
 
 const Details = ({ product }: DetailsProps) => {
+  const dispatch = useDispatch();
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
-  const [mainImage, setMainImage] = useState<string>(product.imgUrl[0]);
   const [selectedColor, setSelectedColor] = useState<number | null>(null);
+  const [quantity, setQuantity] = useState<number>(1);
 
-  const handleImageClick = (image: string) => {
-    setMainImage(image);
+  const handleProductClick = () => {
+    dispatch(addProductToCart(product, quantity));
+  };
+
+  const handleQuantityChange = (newQuantity: number) => {
+    setQuantity(newQuantity);
+    dispatch(updateProductQuantity(product.sku, newQuantity));
   };
 
   return (
@@ -35,13 +43,12 @@ const Details = ({ product }: DetailsProps) => {
                 src={image}
                 alt={`${product.name} ${index + 1}`}
                 className="mb-4 w-full h-16 md:h-20 sm:h-24 object-contain rounded-lg cursor-pointer"
-                onClick={() => handleImageClick(image)}
               />
             ))}
           </div>
           <div className="w-4/5">
             <img
-              src={mainImage}
+              src={product.imgUrl[0]}
               alt={product.name}
               className="w-full h-auto rounded-lg object-contain"
             />
@@ -49,7 +56,7 @@ const Details = ({ product }: DetailsProps) => {
         </div>
         <div className="w-full sm:w-1/2 sm:pl-8 mt-8 sm:mt-0">
           <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
-          <p className="text-2xl mb-4 text-gray">Rs. {product.price}</p>
+          <p className="text-2xl mb-4 text-gray">Rs. {product.price.toLocaleString()}</p>
           <div className="flex items-center mb-4">
             <div className="flex items-center">
               <img src={product.stars} alt="Stars" className="w-24 sm:w-32 h-6" />
@@ -89,7 +96,16 @@ const Details = ({ product }: DetailsProps) => {
             </div>
           </div>
           <div className="flex items-center mb-8">
-            <button className="border border-black rounded-lg px-8 md:px-10 py-2 mt-4 mb-10 hover:bg-filter hover:font-bold transition duration-300">
+            <div className='border border-gray rounded-lg py-4 '>
+              <button className="px-4 lg:px-6 hover:font-bold transition duration-300" disabled={quantity <= 1} onClick={() => handleQuantityChange(quantity - 1)}>
+                -
+              </button>
+              <span>{quantity}</span>
+              <button className="px-4 lg:px-6 hover:font-bold transition duration-300" onClick={() => handleQuantityChange(quantity + 1)}>
+                +
+              </button>
+            </div>
+            <button onClick={handleProductClick} className="border border-black rounded-lg px-8 md:px-10 py-4 mt-10 ml-6 mb-10 hover:bg-filter hover:font-bold transition duration-300">
               Add To Cart
             </button>
           </div>

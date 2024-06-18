@@ -5,7 +5,6 @@ const contactFormSchema = z.object({
     .string()
     .min(3, { message: 'Name must be at least 3 characters long' })
     .refine(value => {
-      // Verifica se todas as palavras começam com letra maiúscula
       const words = value.split(' ');
       return words.every(word => /^[A-Z]/.test(word));
     }, {

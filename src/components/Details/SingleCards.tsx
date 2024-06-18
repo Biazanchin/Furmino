@@ -12,7 +12,7 @@ const SingleCards = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/25e80ac4-76fd-413a-9a3e-ecc026d6eb6c");
+        const response = await fetch("https://run.mocky.io/v3/41508ff4-254e-4a3d-8da8-47aea9b0d5d3");
         const data = await response.json();
         setProducts(data.products);
         const product = data.products.find((product: Products) => product.sku === sku);

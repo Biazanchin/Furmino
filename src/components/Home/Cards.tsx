@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Products } from "../../types/products";
+import { useDispatch } from "react-redux";
+import { addProductToCart } from "../../redux/Actions/cartActions";
 
 interface CardItemProps {
   product: Products;
@@ -7,6 +9,12 @@ interface CardItemProps {
 }
 
 const CardItem = ({ product, onSelectProduct }: CardItemProps) => {
+  const dispatch = useDispatch()
+
+  const handleProductClick = () => {
+    dispatch(addProductToCart(product, 1))
+  }
+
   return (
     <div
       onClick={() => onSelectProduct(product.sku)}
@@ -34,7 +42,8 @@ const CardItem = ({ product, onSelectProduct }: CardItemProps) => {
           )}
         </div>
         <Link
-          to="/cart"
+        to='#'
+          onClick={handleProductClick}
           className="bg-white text-primary py-2 px-10 transition-opacity opacity-0 group-hover:opacity-100 hover:font-bold absolute top-[35%] left-[20%] z-10"
         >
           Add to Cart
@@ -69,19 +78,16 @@ const CardItem = ({ product, onSelectProduct }: CardItemProps) => {
               <p className="text-base">
                 <strong>
                   Rp{" "}
-                  {(
-                    Number(product.price) -
-                    (Number(product.price) * (product.discountPercentage / 100))
-                  )}
+                  {((product.price) - (product.price) * (product.discountPercentage / 100)).toLocaleString()}
                 </strong>{" "}
                 <span className="text-lighter-gray line-through ml-2">
-                  Rp {product.price}
+                  Rp {product.price.toLocaleString()}
                 </span>
               </p>
             </div>
           ) : (
             <strong className="font-bold mt-2 block">
-              Rp {product.price}
+              Rp {product.price.toLocaleString()}
             </strong>
           )}
         </div>
