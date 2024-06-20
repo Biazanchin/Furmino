@@ -1,7 +1,8 @@
-export const subscribeEmailSuccess = () => ({
-    type: 'SUBSCRIBE_EMAIL_SUCCESS',
+export const subscribeEmailSuccess = (email: string) => ({
+  type: "SUBSCRIBE_EMAIL_SUCCESS",
+  payload: { email },
 });
 
 export const subscribeEmailError = () => ({
-    type: 'SUBSCRIBE_EMAIL_ERROR',
+  type: "SUBSCRIBE_EMAIL_ERROR",
 });

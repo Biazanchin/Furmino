@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import Modal from './Modal';
+import { useState } from "react";
+import Modal from "./Modal";
 
 const Login = () => {
   const [showModal, setShowModal] = useState(false);
@@ -14,7 +14,7 @@ const Login = () => {
       <main className="flex items-center justify-center flex-col">
         <img
           src={
-            'https://desafio3furniro.s3.us-east-2.amazonaws.com/header/logo.png'
+            "https://desafio3furniro.s3.us-east-2.amazonaws.com/header/logo.png"
           }
           alt="Logo"
         />
@@ -28,9 +28,7 @@ const Login = () => {
         >
           Login
         </button>
-        {showModal && (
-          <Modal onClose={() => setShowModal(false)} />
-        )}
+        {showModal && <Modal onClose={() => setShowModal(false)} />}
       </main>
     </div>
   );

@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   signInWithPopup,
   GoogleAuthProvider,
   FacebookAuthProvider,
-} from 'firebase/auth';
-import { auth } from '../../services/Firebase/FirebaseAuth';
+} from "firebase/auth";
+import { auth } from "../../services/Firebase/FirebaseAuth";
 
 interface ModalProps {
   onClose: () => void;
@@ -16,17 +16,17 @@ interface ModalProps {
 function Modal({ onClose }: ModalProps) {
   const navigate = useNavigate();
   const [showEmailLogin, setShowEmailLogin] = useState(false);
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleGoogleLogin = async () => {
     const provider = new GoogleAuthProvider();
     try {
       const userCredential = await signInWithPopup(auth, provider);
-      console.log('User Info: ', userCredential.user);
-      navigate('/');
+      console.log("User Info: ", userCredential.user);
+      navigate("/");
     } catch (error) {
-      console.error('Error during Google login: ', error);
+      console.error("Error during Google login: ", error);
     }
   };
 
@@ -34,10 +34,10 @@ function Modal({ onClose }: ModalProps) {
     const provider = new FacebookAuthProvider();
     try {
       const userCredential = await signInWithPopup(auth, provider);
-      console.log('User Info: ', userCredential.user);
-      navigate('/');
+      console.log("User Info: ", userCredential.user);
+      navigate("/");
     } catch (error) {
-      console.error('Error during Facebook login: ', error);
+      console.error("Error during Facebook login: ", error);
     }
   };
 
@@ -46,20 +46,28 @@ function Modal({ onClose }: ModalProps) {
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+    e.preventDefault();
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      console.log('User Info: ', userCredential.user);
-      navigate('/');
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      console.log("User Info: ", userCredential.user);
+      navigate("/");
     } catch (error: any) {
-      console.error('Error during authentication: ', error);
-      if (error.code === 'auth/user-not-found') {
+      console.error("Error during authentication: ", error);
+      if (error.code === "auth/user-not-found") {
         try {
-          const newUserCredential = await createUserWithEmailAndPassword(auth, email, password);
-          console.log('New user created: ', newUserCredential.user);
-          navigate('/');
+          const newUserCredential = await createUserWithEmailAndPassword(
+            auth,
+            email,
+            password
+          );
+          console.log("New user created: ", newUserCredential.user);
+          navigate("/");
         } catch (createError) {
-          console.error('Error creating user: ', createError);
+          console.error("Error creating user: ", createError);
         }
       }
     }

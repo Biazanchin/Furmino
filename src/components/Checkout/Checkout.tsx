@@ -1,12 +1,18 @@
 import { useState } from "react";
 import { RootState } from "../../redux/root-reducer";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import checkoutFormSchema from "../../schema/checkoutForm";
+import {
+  subscribeFormError,
+  subscribeFormSuccess,
+} from "../../redux/Actions/checkoutAction";
 
 const CheckoutForm = () => {
+  const dispatch = useDispatch();
   const products = useSelector(
     (state: RootState) => state.cartReducer.products
   );
+  const {} = useSelector((state: RootState) => state.CheckoutReducer);
 
   const initialFormData = {
     firstName: "",
@@ -42,7 +48,10 @@ const CheckoutForm = () => {
     e: React.ChangeEvent<HTMLInputElement>
   ) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
 
     if (value.length === 8) {
       try {
@@ -52,13 +61,12 @@ const CheckoutForm = () => {
         }
         const data = await response.json();
         const { logradouro, localidade, uf } = data;
-        setFormData({
-          ...formData,
+        setFormData((prevFormData) => ({
+          ...prevFormData,
           streetAddress: logradouro,
           city: localidade,
           province: uf,
-          country: "Brazil",
-        });
+        }));
       } catch (error) {
         console.error("Error fetching address data:", error);
       }
@@ -84,6 +92,7 @@ const CheckoutForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (validateForm()) {
+      dispatch(subscribeFormSuccess(formData));
       setSubmitSuccess(true);
       setFormData(initialFormData);
       setErrors({});
@@ -93,6 +102,7 @@ const CheckoutForm = () => {
       }, 3000);
     } else {
       console.log("Formulário inválido");
+      dispatch(subscribeFormError());
     }
   };
 
@@ -170,6 +180,7 @@ const CheckoutForm = () => {
               type="text"
               name="zipCode"
               id="zipCode"
+              maxLength={8}
               value={formData.zipCode}
               onChange={handleZipCodeChange}
               className={`w-full p-2 border ${
@@ -399,12 +410,13 @@ const CheckoutForm = () => {
             Place Order
           </button>
         </div>
-
-        {submitSuccess && (
-          <div className="text-green-500 font-bold mt-4">
-            Form submitted successfully!
-          </div>
-        )}
+        <div className="flex justify-center">
+          {submitSuccess && (
+            <div className="text-green-500 font-bold mt-4">
+              Form submitted successfully!
+            </div>
+          )}
+        </div>
       </div>
     </form>
   );

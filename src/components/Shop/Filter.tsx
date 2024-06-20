@@ -1,13 +1,22 @@
-import { useState, ChangeEvent } from 'react';
+import { useState, ChangeEvent } from "react";
 
 interface FilterProps {
-  applyFilters: (filters: { category: string; sortBy: string; isNew: boolean }) => void;
+  applyFilters: (filters: {
+    category: string;
+    sortBy: string;
+    isNew: boolean;
+  }) => void;
   currentPage: number;
   totalProducts: number;
   itemsPerPage: number;
 }
 
-const Filter = ({ applyFilters, currentPage, totalProducts, itemsPerPage }: FilterProps) => {
+const Filter = ({
+  applyFilters,
+  currentPage,
+  totalProducts,
+  itemsPerPage,
+}: FilterProps) => {
   const [isPopupOpen, setIsPopupOpen] = useState<boolean>(false);
   const [tempCategory, setTempCategory] = useState<string>("");
   const [tempSortBy, setTempSortBy] = useState<string>("");
@@ -26,31 +35,57 @@ const Filter = ({ applyFilters, currentPage, totalProducts, itemsPerPage }: Filt
 
   const handleApplyButtonClick = () => {
     const isNew = tempSortBy === "new";
-    applyFilters({ category: tempCategory, sortBy: isNew ? "" : tempSortBy, isNew });
+    applyFilters({
+      category: tempCategory,
+      sortBy: isNew ? "" : tempSortBy,
+      isNew,
+    });
     setTempCategory("");
     setTempSortBy("");
     togglePopup();
   };
 
-  const start = (currentPage - 1 ) * itemsPerPage + 1;
+  const start = (currentPage - 1) * itemsPerPage + 1;
   const end = Math.min(currentPage * itemsPerPage, totalProducts);
 
   return (
     <div className="flex flex-col sm:flex-row items-center bg-filter p-4 pl-16 pr-16 font-poppins relative">
       <div className="flex items-center mb-4 sm:mb-0">
         <button onClick={togglePopup} className="focus:outline-none">
-          <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/filtro.png" alt="Filtro" className="w-6 h-6" />
+          <img
+            src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/filtro.png"
+            alt="Filtro"
+            className="w-6 h-6"
+          />
         </button>
-        <span onClick={togglePopup} className="ml-2 cursor-pointer">Filter</span>
-        <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/bolinhas.png" alt="bolinhas" className="cursor-pointer w-6 h-6 ml-4" />
-        <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/lista.png" alt="page" className="cursor-pointer w-6 h-6 ml-4" />
+        <span onClick={togglePopup} className="ml-2 cursor-pointer">
+          Filter
+        </span>
+        <img
+          src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/bolinhas.png"
+          alt="bolinhas"
+          className="cursor-pointer w-6 h-6 ml-4"
+        />
+        <img
+          src="https://desafio3furniro.s3.us-east-2.amazonaws.com/shop/lista.png"
+          alt="page"
+          className="cursor-pointer w-6 h-6 ml-4"
+        />
         <div className="bg-black h-6 w-0.5 ml-8 mr-4"></div>
-        <span className="ml-4 text-sm">Showing {start}-{end} of {totalProducts} results</span>
+        <span className="ml-4 text-sm">
+          Showing {start}-{end} of {totalProducts} results
+        </span>
       </div>
       <div className="flex items-center lg:ml-auto">
-        <label htmlFor="show-select" className="mr-2 text-sm">Show</label>
-        <div className="mr-4 py-2 px-4 text-gray bg-white text-sm">{itemsPerPage}</div>
-        <label htmlFor="sort-select" className="mr-2 text-sm">Sort by</label>
+        <label htmlFor="show-select" className="mr-2 text-sm">
+          Show
+        </label>
+        <div className="mr-4 py-2 px-4 text-gray bg-white text-sm">
+          {Math.min(itemsPerPage, totalProducts)}
+        </div>
+        <label htmlFor="sort-select" className="mr-2 text-sm">
+          Sort by
+        </label>
         <div className="bg-white text-gray py-2 pl-4 pr-10 text-sm">
           Default
         </div>
@@ -59,9 +94,18 @@ const Filter = ({ applyFilters, currentPage, totalProducts, itemsPerPage }: Filt
       {isPopupOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="p-6 rounded-lg relative bg-pink">
-            <button onClick={togglePopup} className="absolute top-2 right-2 text-2xl">&times;</button>
+            <button
+              onClick={togglePopup}
+              className="absolute top-2 right-2 text-2xl"
+            >
+              &times;
+            </button>
             <div className="flex flex-col space-y-4">
-              <select onChange={handleCategoryChange} className="p-2 border border-gray rounded hover:scale-105" value={tempCategory}>
+              <select
+                onChange={handleCategoryChange}
+                className="p-2 border border-gray rounded hover:scale-105"
+                value={tempCategory}
+              >
                 <option value="">Category</option>
                 <option value="Sofa">Sofa</option>
                 <option value="Chair">Chair</option>
@@ -71,13 +115,22 @@ const Filter = ({ applyFilters, currentPage, totalProducts, itemsPerPage }: Filt
                 <option value="Bed">Bed</option>
                 <option value="Lamp">Lamp</option>
               </select>
-              <select onChange={handleSortByChange} className="p-2 border border-gray rounded hover:scale-105" value={tempSortBy}>
+              <select
+                onChange={handleSortByChange}
+                className="p-2 border border-gray rounded hover:scale-105"
+                value={tempSortBy}
+              >
                 <option value="">Sort by</option>
                 <option value="alphabetical">Alphabetical</option>
                 <option value="price">Price</option>
                 <option value="new">New</option>
               </select>
-              <button onClick={handleApplyButtonClick} className="p-2 border border-gray rounded bg-light-gray hover:scale-105">Apply</button>
+              <button
+                onClick={handleApplyButtonClick}
+                className="p-2 border border-gray rounded bg-light-gray hover:scale-105"
+              >
+                Apply
+              </button>
             </div>
           </div>
         </div>

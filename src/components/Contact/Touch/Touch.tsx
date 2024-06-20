@@ -1,7 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { contactFormSchema } from "../../../schema/contactForm";
+import { RootState } from "../../../redux/root-reducer";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  subscribeContactFormError,
+  subscribeContactFormSuccess,
+} from "../../../redux/Actions/contactActions";
 
 const Touch = () => {
+  const dispatch = useDispatch();
+  const {} = useSelector((state: RootState) => state.ContactReducer);
+
   const initialFormData = {
     name: "",
     email: "",
@@ -42,6 +51,7 @@ const Touch = () => {
     e.preventDefault();
     if (validateForm()) {
       setSubmitSuccess(true);
+      dispatch(subscribeContactFormSuccess(formData));
       setFormData(initialFormData);
       setErrors({});
 
@@ -50,6 +60,7 @@ const Touch = () => {
       }, 3000);
     } else {
       console.log("Formulário inválido");
+      dispatch(subscribeContactFormError());
     }
   };
 
