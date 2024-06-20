@@ -13,32 +13,42 @@ function CardShop() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/41508ff4-254e-4a3d-8da8-47aea9b0d5d3");
+        const response = await fetch(
+          "https://run.mocky.io/v3/41508ff4-254e-4a3d-8da8-47aea9b0d5d3"
+        );
         const data = await response.json();
         setAllProducts(data.products);
         setFilteredProducts(data.products);
       } catch (error) {
-        console.log('Error fetching products: ', error);
+        console.log("Error fetching products: ", error);
       }
     };
     fetchProducts();
   }, []);
 
-  const applyFilters = ({ category, sortBy, isNew }: { category: string, sortBy: string, isNew: boolean }) => {
+  const applyFilters = ({
+    category,
+    sortBy,
+    isNew,
+  }: {
+    category: string;
+    sortBy: string;
+    isNew: boolean;
+  }) => {
     let filtered: Products[] = [...allProducts];
-  
+
     if (category) {
-      filtered = filtered.filter(product => product.category === category);
+      filtered = filtered.filter((product) => product.category === category);
     }
-  
+
     if (!category && sortBy === "alphabetical") {
       filtered.sort((a, b) => a.name.localeCompare(b.name));
     } else if (!category && sortBy === "price") {
       filtered.sort((a, b) => a.price - b.price);
     } else if (isNew) {
-      filtered = filtered.filter(product => product.isNew);
+      filtered = filtered.filter((product) => product.isNew);
     }
-  
+
     setFilteredProducts(filtered);
     setCurrentPage(1);
     scrollToProductsSection();
@@ -68,14 +78,17 @@ function CardShop() {
   };
 
   const scrollToProductsSection = () => {
-    const element = document.getElementById('products-section');
+    const element = document.getElementById("products-section");
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
-  const paginatedProducts = filteredProducts.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+  const paginatedProducts = filteredProducts.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
 
   const getPageNumbers = () => {
     let startPage, endPage;
@@ -104,12 +117,21 @@ function CardShop() {
 
   return (
     <section>
-      <Filter applyFilters={applyFilters} currentPage={currentPage} totalProducts={filteredProducts.length} itemsPerPage={itemsPerPage} />
+      <Filter
+        applyFilters={applyFilters}
+        currentPage={currentPage}
+        totalProducts={filteredProducts.length}
+        itemsPerPage={itemsPerPage}
+      />
       <div className="py-20 max-sm:px-4" id="products-section">
         <div className="text-start font-poppins max-w-screen-xl mx-auto">
           <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             {paginatedProducts.map((product) => (
-              <CardItem key={product.sku} product={product} onSelectProduct={handleSelectProduct} />
+              <CardItem
+                key={product.sku}
+                product={product}
+                onSelectProduct={handleSelectProduct}
+              />
             ))}
           </div>
           <div className="flex justify-center mt-8">
@@ -125,7 +147,11 @@ function CardShop() {
               <button
                 key={page}
                 onClick={() => handlePageChange(page)}
-                className={`px-4 py-2 mx-1 rounded ${currentPage === page ? 'bg-primary text-white' : 'hover:bg-primary hover:text-white bg-filter'}`}
+                className={`px-4 py-2 mx-1 rounded ${
+                  currentPage === page
+                    ? "bg-primary text-white"
+                    : "hover:bg-primary hover:text-white bg-filter"
+                }`}
               >
                 {page}
               </button>

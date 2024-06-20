@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .splide-custom .splide__slide {
-    transform: scale(1)
+  transform: scale(1);
 }
 
 .splide-custom .splide__pagination__page.is-active {
-    background: #B88E2F
+  background: #b88e2f;
 }

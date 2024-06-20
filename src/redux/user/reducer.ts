@@ -1,3 +1,5 @@
+import { UnknownAction } from "redux"
+
 interface UserState {
     email: string;
     subscriptionSuccess: boolean;
@@ -10,7 +12,7 @@ const initialState: UserState = {
     subscriptionError: false,
 };
 
-const userReducer = (state = initialState, action: any): UserState => {
+const userReducer = (state = initialState, action: UnknownAction): UserState => {
     switch (action.type) {
         case 'SUBSCRIBE_EMAIL_SUCCESS':
             return {
