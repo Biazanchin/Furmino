@@ -31,7 +31,7 @@ git clone https://github.com/Biazanchin/DESAFIO3.git .
 ```
 Instale todas as dependências
 ```bash
-npm install
+npm install --force
 ```
 Rode o projeto em sua máquina
 ```bash
