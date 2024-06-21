@@ -11,6 +11,7 @@ import Error from "../pages/error";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Navigate } from "react-router-dom";
 import { auth } from "../services/Firebase/FirebaseAuth";
+import LoginCheckout from "../components/Login/LoginCheckout";
 
 export function Router() {
   const [user, loading] = useAuthState(auth);
@@ -27,13 +28,14 @@ export function Router() {
         {user ? (
           <Route path="/checkout" element={<Chekout />} />
         ) : (
-          <Route path="/checkout" element={<Navigate to="/login" />} />
+          <Route path="/checkout" element={<Navigate to="/loginCheckout" />} />
         )}
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Route>
       <Route path="/products/:sku" element={<ProductDetails />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/loginCheckout" element={<LoginCheckout />} />
     </Routes>
   );
 }
