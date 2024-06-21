@@ -7,10 +7,10 @@ import {
 } from "../../redux/Actions/userActions";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState<string>("");
   const [isValidEmail, setIsValidEmail] = useState<boolean | null>(null);
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  const [showErrorMessage, setShowErrorMessage] = useState(false);
+  const [showSuccessMessage, setShowSuccessMessage] = useState<boolean>(false);
+  const [showErrorMessage, setShowErrorMessage] = useState<boolean>(false);
 
   const dispatch = useDispatch();
   const userState = useSelector((state: RootState) => state.userReducer);
@@ -27,12 +27,15 @@ const Footer = () => {
     if (isValidEmail) {
       dispatch(subscribeEmailSuccess(email));
       setShowSuccessMessage(true);
+      setShowErrorMessage(false);
+      setEmail("");
       setTimeout(() => {
         setShowSuccessMessage(false);
       }, 3000);
     } else {
       dispatch(subscribeEmailError());
       setShowErrorMessage(true);
+      setShowSuccessMessage(false);
       setTimeout(() => {
         setShowErrorMessage(false);
       }, 3000);
@@ -41,7 +44,7 @@ const Footer = () => {
 
   useEffect(() => {
     if (userState.subscriptionSuccess) {
-      setEmail(userState.email);
+      setEmail("");
     }
   }, [userState]);
 
