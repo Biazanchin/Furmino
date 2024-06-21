@@ -13,26 +13,27 @@ import { Navigate } from "react-router-dom";
 import { auth } from "../services/Firebase/FirebaseAuth";
 
 export function Router() {
-    const [user, loading] = useAuthState(auth);
+  const [user, loading] = useAuthState(auth);
 
-    if (loading) return null;
+  if (loading) return null;
 
-    return (
-        <Routes>
-            <Route element={<Layout />}>
-                <Route path="/" element={<Home />} />
-                <Route path="/shop" element={<Shop />} />
-                <Route path="/products/:sku" element={<ProductDetails />} />
-                <Route path="/cart" element={<Cart />} />
-                {user ? (
-                    <Route path="/checkout" element={<Chekout />} />
-                ) : (
-                    <Route path="/checkout" element={<Navigate to="/login" />} />
-                )}
-                <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<Error/>} />
-            </Route>
-            <Route path="/login" element={<Login/>} />
-        </Routes>
-    );
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+
+        <Route path="/cart" element={<Cart />} />
+        {user ? (
+          <Route path="/checkout" element={<Chekout />} />
+        ) : (
+          <Route path="/checkout" element={<Navigate to="/login" />} />
+        )}
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
+      </Route>
+      <Route path="/products/:sku" element={<ProductDetails />} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
+  );
 }

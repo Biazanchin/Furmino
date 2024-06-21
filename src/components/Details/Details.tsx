@@ -6,6 +6,7 @@ import {
   updateProductQuantity,
 } from "../../redux/Actions/cartActions";
 import Description from "./Description";
+import Header from "../Header/index";
 
 interface DetailsProps {
   product: Products;
@@ -33,6 +34,7 @@ const Details = ({ product }: DetailsProps) => {
 
   return (
     <div>
+      <Header />
       <div className="font-poppins border border-b-2 border-light-gray">
         <div className="flex flex-col sm:flex-row items-center bg-filter p-4 pl-8 sm:pl-16 pr-8 sm:pr-16 relative mb-8">
           <div className="flex items-center mb-4 sm:mb-0">
