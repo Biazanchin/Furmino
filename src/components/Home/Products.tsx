@@ -5,17 +5,18 @@ import CardItem from "./Cards";
 const OurProducts = () => {
   const [products, setProducts] = useState<Products[]>([]);
   const [visibleProducts] = useState<number>(8);
-  const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
-
+  const [, setSelectedProduct] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("https://run.mocky.io/v3/41508ff4-254e-4a3d-8da8-47aea9b0d5d3");
+        const response = await fetch(
+          "https://run.mocky.io/v3/41508ff4-254e-4a3d-8da8-47aea9b0d5d3"
+        );
         const data = await response.json();
         setProducts(data.products);
       } catch (error) {
-        console.log('Error fetching products: ', error);
+        console.log("Error fetching products: ", error);
       }
     };
     fetchProducts();
@@ -33,17 +34,21 @@ const OurProducts = () => {
         </h2>
         <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {products.slice(0, visibleProducts).map((product) => (
-            <CardItem key={product.sku} product={product} onSelectProduct={handleSelectProduct} />
+            <CardItem
+              key={product.sku}
+              product={product}
+              onSelectProduct={handleSelectProduct}
+            />
           ))}
         </div>
-          <div className="text-center mt-8">
-            <a 
-             href="/shop"
-              className="border border-primary text-primary px-10 py-2 hover:text-white hover:bg-primary transition duration-300"
-            >
-              Show More
-            </a>
-          </div>
+        <div className="text-center mt-8">
+          <a
+            href="/shop"
+            className="border border-primary text-primary px-10 py-2 hover:text-white hover:bg-primary transition duration-300"
+          >
+            Show More
+          </a>
+        </div>
       </div>
     </section>
   );

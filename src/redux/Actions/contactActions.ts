@@ -1,4 +1,4 @@
-export const subscribeContactFormSuccess = (formData: string) => ({
+export const subscribeContactFormSuccess = (formData: any) => ({
   type: "SUBSCRIBE_CONTACT_FORM_SUCCESS",
   payload: formData,
 });
