@@ -77,22 +77,21 @@ const Filter = ({
         </span>
       </div>
       <div className="flex items-center lg:ml-auto">
-        <label htmlFor="show-select" className="mr-2 text-sm">
-          Show
-        </label>
+        <label className="mr-2 text-sm">Show</label>
         <div className="mr-4 py-2 px-4 text-gray bg-white text-sm">
           {Math.min(itemsPerPage, totalProducts)}
         </div>
-        <label htmlFor="sort-select" className="mr-2 text-sm">
-          Sort by
-        </label>
+        <label className="mr-2 text-sm">Sort by</label>
         <div className="bg-white text-gray py-2 pl-4 pr-10 text-sm">
           Default
         </div>
       </div>
 
       {isPopupOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+        <div
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
+          role="dialog"
+        >
           <div className="p-6 rounded-lg relative bg-pink">
             <button
               onClick={togglePopup}
@@ -105,6 +104,7 @@ const Filter = ({
                 onChange={handleCategoryChange}
                 className="p-2 border border-gray rounded hover:scale-105"
                 value={tempCategory}
+                data-testid="category-select"
               >
                 <option value="">Category</option>
                 <option value="Sofa">Sofa</option>
@@ -119,6 +119,7 @@ const Filter = ({
                 onChange={handleSortByChange}
                 className="p-2 border border-gray rounded hover:scale-105"
                 value={tempSortBy}
+                data-testid="sort-select"
               >
                 <option value="">Sort by</option>
                 <option value="alphabetical">Alphabetical</option>

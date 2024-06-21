@@ -61,6 +61,8 @@ npm run test
 - Firebase
 - Redux
 - Mocky
+- Jest
+- Testing Library
 
 ## Acesso 🔓
 
@@ -111,3 +113,5 @@ O email cadastrado no firebase para logar é **teste@teste.com** com a senha **1
 ### Responsividade
 
 [Responsividade](https://github.com/Biazanchin/DESAFIO3/assets/165194563/567d90ce-b1dd-4dce-ae51-0312ece8aa13)
+
+### Testes
