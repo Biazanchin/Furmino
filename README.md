@@ -46,12 +46,6 @@ Rode o projeto em sua máquina
 npm run dev
 ```
 
-Para rodar os testes execute o seguinte comando
-
-```bash
-npm run test
-```
-
 ## Tecnologias💻
 
 - React
