@@ -46,7 +46,7 @@ Rode o projeto em sua máquina
 npm run dev
 ```
 
-Para rodar os testes execute o seguinte comando
+Para rodar os testes de o comando
 
 ```bash
 npm run test
