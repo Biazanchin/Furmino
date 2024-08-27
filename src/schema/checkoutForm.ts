@@ -21,6 +21,9 @@ const checkoutFormSchema = z.object({
   city: z.string().min(1, "City is required"),
   province: z.string().min(1, "Province is required"),
   email: z.string().email("Invalid email address").min(1, "Email is required"),
+  paymentMethod: z.enum(["paymentMethod1", "paymentMethod2"], {
+    errorMap: () => ({ message: "Payment method is required" }),
+  }),
 });
 
 export default checkoutFormSchema;
