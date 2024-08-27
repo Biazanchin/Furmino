@@ -19,19 +19,15 @@ O Furmino é uma loja de móveis fictícia que possui quatro páginas principais
 - [x] Na página de Check Out, os dados de endereço devem vir da [API](https://viacep.com.br/) e preencher todos os campos de endereço automaticamente, exceto o de complemento;
 - [x] A aplicação deve estar responsiva;
 - [x] Pode fazer o uso de biblioteca externa (estritamente **styled-components ou Tailwind)** para estilização;
-- [ ] Testes unitários com pelo menos 70% de cobertura;
-- [x] Crie um repositório privado em seu Github e adicione os instrutores como colaboradores do projeto até as **17h30 do dia 10/06/2024**;
 - [x] Adicione um README ao seu projeto, com instruções para inicializar e rodar sua aplicação;
 - [x] Faça pequenos commits e use Convencionais Commits para manter seu repositório organizado;
-- [x] ReactApp rodando em uma instância EC2 (uso geral) com porta aberta para acesso externo (VPC do EC2);
-- [x] Todas as imagens devem ser hospedadas em bucket do S3 (uso geral).
 
 ## Instalação⚙️
 
 Faça o clone do projeto em sua IDE
 
 ```bash
-git clone https://github.com/Biazanchin/DESAFIO3.git .
+git clone https://github.com/Biazanchin/Furmino.git .
 ```
 
 Instale todas as dependências
@@ -40,16 +36,16 @@ Instale todas as dependências
 npm install --force
 ```
 
-Rode o projeto em sua máquina
+Inicie o json
+
+```bash
+npm run serve
+```
+
+Enquanto o json estiver rodando, abra outro terminal e rode a aplicação
 
 ```bash
 npm run dev
-```
-
-Para rodar os testes de o comando
-
-```bash
-npm run test
 ```
 
 ## Tecnologias💻
@@ -60,9 +56,6 @@ npm run test
 - Splide
 - Firebase
 - Redux
-- Mocky
-- Jest
-- Testing Library
 
 ## Acesso 🔓
 
@@ -113,7 +106,3 @@ O email cadastrado no firebase para logar é **teste@teste.com** com a senha **1
 ### Responsividade
 
 [Responsividade](https://github.com/Biazanchin/DESAFIO3/assets/165194563/567d90ce-b1dd-4dce-ae51-0312ece8aa13)
-
-### Testes
-![Testes](https://github.com/Biazanchin/DESAFIO3/assets/165194563/af48e9b1-45a3-446c-b6d9-353314d072dd)
-
