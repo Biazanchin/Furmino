@@ -37,9 +37,7 @@ const Header = () => {
           <Link to="/">
             <img
               className="cursor-pointer h-8 mr-2"
-              src={
-                "https://desafio3furniro.s3.us-east-2.amazonaws.com/header/logo.png"
-              }
+              src={"/logo.png"}
               alt="Logo"
             />
           </Link>
@@ -67,14 +65,14 @@ const Header = () => {
           <Link to="/login">
             <img
               className="cursor-pointer h-6 mx-4"
-              src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/usuario.png"
+              src="/usuario.png"
               alt="usuario"
             />
           </Link>
           <img
             onClick={toggleCart}
             className="cursor-pointer h-6 mx-4"
-            src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/carrinho.png"
+            src="/carrinho.png"
             alt="carrinho"
           />
           {productsCount > 0 && <span>{productsCount}</span>}
@@ -144,14 +142,14 @@ const Header = () => {
           <Link to="/login">
             <img
               className="cursor-pointer h-6 mx-4"
-              src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/usuario.png"
+              src="/usuario.png"
               alt="usuario"
             />
           </Link>
           <img
             onClick={toggleCart}
             className="cursor-pointer h-6"
-            src="https://desafio3furniro.s3.us-east-2.amazonaws.com/header/carrinho.png"
+            src="/carrinho.png"
             alt="carrinho"
           />
           {productsCount > 0 && <span>{productsCount}</span>}

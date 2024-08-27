@@ -65,7 +65,7 @@ const Carrossel = () => {
           <SplideSlide>
             <div className="relative lg:h-full">
               <img
-                src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/carrosel1.png"
+                src="/Inner-Peace.png"
                 alt="Inner Peace"
                 className="carousel-image"
               />
@@ -75,7 +75,7 @@ const Carrossel = () => {
                 <span>
                   <a href="/bed">
                     <img
-                      src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png"
+                      src="/CTA.png"
                       alt="seta"
                       className="bg-primary absolute bottom-1 left-40 md:p-2 p-1 block"
                     />
@@ -87,7 +87,7 @@ const Carrossel = () => {
           <SplideSlide>
             <div className="relative lg:h-full">
               <img
-                src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/carrosel2.png"
+                src="/kitchen.png"
                 alt="Another Room"
                 className="carousel-image"
               />
@@ -98,7 +98,7 @@ const Carrossel = () => {
                   <span>
                     <a href="/living">
                       <img
-                        src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png"
+                        src="/CTA.png"
                         alt="seta"
                         className="bg-primary absolute left-40 bottom-1 md:p-2 p-1"
                       />
@@ -111,7 +111,7 @@ const Carrossel = () => {
           <SplideSlide>
             <div className="relative lg:h-full">
               <img
-                src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Rectangle+26.png"
+                src="/bathroom.png"
                 alt="Bathroom"
                 className="carousel-image"
               />
@@ -122,7 +122,7 @@ const Carrossel = () => {
                   <span>
                     <a href="/living">
                       <img
-                        src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Right+16px.png"
+                        src="/CTA.png"
                         alt="seta"
                         className="bg-primary absolute left-40 bottom-1 md:p-2 p-1"
                       />
@@ -137,10 +137,7 @@ const Carrossel = () => {
           className="absolute top-1/2 right-0 transform -translate-y-1/2"
           onClick={handleNextSlide}
         >
-          <img
-            src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/seta.png"
-            alt="Next"
-          />
+          <img src="/seta.png" alt="Next" />
         </button>
       </div>
     </div>

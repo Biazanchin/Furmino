@@ -5,20 +5,14 @@ import Details from "./Details";
 
 const SingleProduct = () => {
   const { sku } = useParams<{ sku: string }>();
-  const [, setProducts] = useState<Products[]>([]);
   const [selectedProduct, setSelectedProduct] = useState<Products | null>(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch(
-          "https://run.mocky.io/v3/41508ff4-254e-4a3d-8da8-47aea9b0d5d3"
-        );
+        const response = await fetch("http://localhost:5000/products");
         const data = await response.json();
-        setProducts(data.products);
-        const product = data.products.find(
-          (product: Products) => product.sku === sku
-        );
+        const product = data.find((product: Products) => product.sku === sku);
         setSelectedProduct(product || null);
       } catch (error) {
         console.log("Error fetching products: ", error);

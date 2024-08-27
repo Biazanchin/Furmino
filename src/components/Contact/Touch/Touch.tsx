@@ -79,11 +79,7 @@ const Touch = () => {
           <div className="w-full md:w-1/2 lg:w-1/3 mb-8 md:mb-0 pr-8">
             <div className="mb-8 flex items-start">
               <div className="mr-4">
-                <img
-                  src="https://desafio3furniro.s3.us-east-2.amazonaws.com/contact/loc.png"
-                  alt="Address Icon"
-                  className="w-6 h-6"
-                />
+                <img src="/loc.png" alt="Address Icon" className="w-12 h-8" />
               </div>
               <div>
                 <h1 className="font-bold">Address</h1>
@@ -92,11 +88,7 @@ const Touch = () => {
             </div>
             <div className="mb-8 flex items-start">
               <div className="mr-4">
-                <img
-                  src="https://desafio3furniro.s3.us-east-2.amazonaws.com/contact/tel.png"
-                  alt="Phone Icon"
-                  className="w-6 h-6"
-                />
+                <img src="/phone.png" alt="Phone Icon" className="w-6 h-6" />
               </div>
               <div>
                 <h1 className="font-bold">Phone</h1>
@@ -107,11 +99,7 @@ const Touch = () => {
             </div>
             <div className="mb-8 flex items-start">
               <div className="mr-4">
-                <img
-                  src="https://desafio3furniro.s3.us-east-2.amazonaws.com/contact/relogio.png"
-                  alt="Clock Icon"
-                  className="w-6 h-6"
-                />
+                <img src="/clock.png" alt="Clock Icon" className="w-6 h-6" />
               </div>
               <div>
                 <h1 className="font-bold">Working Time</h1>

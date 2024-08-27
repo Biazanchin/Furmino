@@ -61,7 +61,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/" target="_blank">
                 <div className="w-6 h-6 bg-gray-700 rounded-full flex items-center justify-center shadow-xl">
                   <img
-                    src="https://desafio3furniro.s3.us-east-2.amazonaws.com/footer/facebook+1.png"
+                    src="/facebook-footer.png"
                     alt="Facebook"
                     className="w-4 h-4"
                   />
@@ -70,7 +70,7 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank">
                 <div className="w-6 h-6 bg-gray-700 rounded-full flex items-center justify-center shadow-xl">
                   <img
-                    src="https://desafio3furniro.s3.us-east-2.amazonaws.com/footer/instagram+1.png"
+                    src="/instagram-footer.png"
                     alt="Instagram"
                     className="w-4 h-4"
                   />
@@ -79,7 +79,7 @@ const Footer = () => {
               <a href="https://x.com/" target="_blank">
                 <div className="w-6 h-6 bg-gray-700 rounded-full flex items-center justify-center shadow-xl">
                   <img
-                    src="https://desafio3furniro.s3.us-east-2.amazonaws.com/footer/twitter+1.png"
+                    src="/twitter-footer.png"
                     alt="Twitter"
                     className="w-4 h-4"
                   />
@@ -88,7 +88,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/" target="_blank">
                 <div className="w-6 h-6 bg-gray-700 rounded-full flex items-center justify-center shadow-xl">
                   <img
-                    src="https://desafio3furniro.s3.us-east-2.amazonaws.com/footer/linkedin+1.png"
+                    src="/linkedin-footer.png"
                     alt="Linkedin"
                     className="w-4 h-4"
                   />

@@ -98,7 +98,7 @@ const CartPage = () => {
                   >
                     <img
                       className="lg:ml-10 mr-2"
-                      src="https://desafio3furniro.s3.us-east-2.amazonaws.com/cart/lixeira.png"
+                      src="/lixeira.png"
                       alt="lixeira"
                     />
                   </button>

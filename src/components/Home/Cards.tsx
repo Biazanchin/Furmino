@@ -9,21 +9,18 @@ interface CardItemProps {
 }
 
 const CardItem = ({ product, onSelectProduct }: CardItemProps) => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const handleProductClick = () => {
-    dispatch(addProductToCart(product, 1))
-  }
+    dispatch(addProductToCart(product, 1));
+  };
 
   return (
     <div
       onClick={() => onSelectProduct(product.sku)}
       className="block w-[285px] h-[446px] relative group cursor-pointer"
     >
-      <Link
-        to={`/products/${product.sku}`}
-        className="block w-full h-full"
-      >
+      <Link to={`/products/${product.sku}`} className="block w-full h-full">
         <div className="relative">
           <img
             src={product.imgUrl[0]}
@@ -42,28 +39,40 @@ const CardItem = ({ product, onSelectProduct }: CardItemProps) => {
           )}
         </div>
         <Link
-        to='#'
+          to="#"
           onClick={handleProductClick}
           className="bg-white text-primary py-2 px-10 transition-opacity opacity-0 group-hover:opacity-100 hover:font-bold absolute top-[35%] left-[20%] z-10"
         >
           Add to Cart
         </Link>
         <div className="flex justify-between mt-2 gap-10 opacity-0 group-hover:opacity-100 transition-opacity z-10 absolute top-[50%] pl-2 pr-4 text-white cursor-pointer">
-          <Link to='/share'>
+          <Link to="/share">
             <span className="flex items-center">
-              <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Share.png" alt="Share Icon" className="inline-block mr-1" />
+              <img
+                src="/compartilhar.png"
+                alt="Share Icon"
+                className="inline-block mr-1"
+              />
               Share
             </span>
           </Link>
-          <Link to='/compare'>
+          <Link to="/compare">
             <span className="flex items-center">
-              <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/compare.png" alt="Compare Icon" className="inline-block mr-1" /> 
+              <img
+                src="/compare.png"
+                alt="Compare Icon"
+                className="inline-block mr-1"
+              />
               Compare
             </span>
           </Link>
-          <Link to='/like'>
+          <Link to="/like">
             <span className="flex items-center">
-              <img src="https://desafio3furniro.s3.us-east-2.amazonaws.com/home/Heart.png" alt="Like Icon" className="inline-block mr-1" />
+              <img
+                src="/Heart.png"
+                alt="Like Icon"
+                className="inline-block mr-1"
+              />
               Like
             </span>
           </Link>
@@ -78,7 +87,10 @@ const CardItem = ({ product, onSelectProduct }: CardItemProps) => {
               <p className="text-base">
                 <strong>
                   Rp{" "}
-                  {((product.price) - (product.price) * (product.discountPercentage / 100)).toLocaleString()}
+                  {(
+                    product.price -
+                    product.price * (product.discountPercentage / 100)
+                  ).toLocaleString()}
                 </strong>{" "}
                 <span className="text-lighter-gray line-through ml-2">
                   Rp {product.price.toLocaleString()}

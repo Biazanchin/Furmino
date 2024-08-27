@@ -7,7 +7,7 @@ function Benefits() {
             <div className="flex items-center space-x-4">
               <div>
                 <img
-                  src="https://desafio3furniro.s3.us-east-2.amazonaws.com/feature/trophy+1.png"
+                  src="/trophy.png"
                   alt="High Quality"
                   className="lg:flex sm:hidden"
                 />
@@ -20,7 +20,7 @@ function Benefits() {
             <div className="flex items-center space-x-4">
               <div>
                 <img
-                  src="https://desafio3furniro.s3.us-east-2.amazonaws.com/feature/guarantee.png"
+                  src="/guarantee.png"
                   alt="Warranty Protection"
                   className="lg:flex sm:hidden"
                 />
@@ -33,7 +33,7 @@ function Benefits() {
             <div className="flex items-center space-x-4">
               <div>
                 <img
-                  src="https://desafio3furniro.s3.us-east-2.amazonaws.com/feature/shipping.png"
+                  src="/shipping.png"
                   alt="Free Shipping"
                   className="lg:flex sm:hidden"
                 />
@@ -46,7 +46,7 @@ function Benefits() {
             <div className="flex items-center space-x-4">
               <div>
                 <img
-                  src="https://desafio3furniro.s3.us-east-2.amazonaws.com/feature/customer-support.png"
+                  src="/customer-support.png"
                   alt="24/7 Support"
                   className="lg:flex sm:hidden"
                 />

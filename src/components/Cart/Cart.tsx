@@ -29,7 +29,7 @@ const Cart = ({ toggleCart }: CartProps) => {
         <div className="flex justify-between items-center p-4 border-b border-light-gray bg-white z-50">
           <h2 className="text-lg font-bold">Shopping Cart</h2>
           <img
-            src="https://desafio3furniro.s3.us-east-2.amazonaws.com/cart/sacola.png"
+            src="/sacola.png"
             alt="Sacola"
             className="w-6 h-6 cursor-pointer"
             onClick={toggleCart}
