@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RootState } from "../../redux/root-reducer";
 import { useDispatch, useSelector } from "react-redux";
+import { removeProductFromCart } from "../../redux/Actions/cartActions";
 import checkoutFormSchema from "../../schema/checkoutForm";
 import {
   subscribeFormError,
@@ -93,6 +94,9 @@ const CheckoutForm = () => {
     e.preventDefault();
     if (validateForm()) {
       dispatch(subscribeFormSuccess(formData));
+      products.forEach(({ product }) => {
+        dispatch(removeProductFromCart(product.sku));
+      });
       setSubmitSuccess(true);
       setFormData(initialFormData);
       setErrors({});
@@ -101,7 +105,6 @@ const CheckoutForm = () => {
         setSubmitSuccess(false);
       }, 3000);
     } else {
-      console.log("Formulário inválido");
       dispatch(subscribeFormError());
     }
   };
@@ -394,6 +397,11 @@ const CheckoutForm = () => {
               Cash on Delivery
             </label>
           </div>
+          {errors.paymentMethod && (
+            <p className="flex items-center justify-center text-red-500 text-md italic">
+              {errors.paymentMethod}
+            </p>
+          )}
           <p>
             Your personal data will be used to support your experience
             throughout this website, to manage access to your account, and for
