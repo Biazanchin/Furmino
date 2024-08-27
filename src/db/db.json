@@ -1,0 +1,5345 @@
+{
+    "products": [
+        {
+            "sku": "SC001",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC002",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS002",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST001",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL001",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM001",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB001",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP001",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS001",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS003",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC003",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC004",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS004",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST002",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL002",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM002",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB002",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP002",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS005",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS006",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC005",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC006",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS007",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST003",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL003",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM003",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB003",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP003",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS008",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS009",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC007",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC008",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS010",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST004",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL004",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM004",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB004",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP004",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS011",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS012",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC009",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC010",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS013",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST005",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL005",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM005",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB005",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP005",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS014",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS015",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC011",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC012",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS016",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST006",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL006",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM006",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB006",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP006",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS017",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS018",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC013",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC014",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS019",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST007",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL007",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM007",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB007",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP007",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS020",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS021",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC015",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC016",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS022",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST008",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL008",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM008",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB008",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP008",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS023",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS024",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC017",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC018",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS025",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST009",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL009",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM009",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB009",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP009",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS026",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS027",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC019",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC020",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS028",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST010",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL010",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM010",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB010",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP010",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS029",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS030",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC021",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC022",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS031",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST011",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL011",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM011",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB011",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP011",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS032",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS033",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC023",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC024",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS034",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST012",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL012",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM012",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB012",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP012",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS035",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS036",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC025",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC026",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS037",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST013",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL013",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM013",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB013",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP013",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS038",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS039",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC027",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC028",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS040",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST014",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL014",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM014",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB014",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP014",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS041",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS042",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        },{
+            "sku": "SC029",
+            "name": "Syltherine",
+            "subtitle": "Stylish cafe chair",
+            "price": 3500000,
+            "onDiscount": true,
+            "discountPercentage": 30,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 10,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png",
+                "/Syltherine.png"
+            ]
+        },
+        {
+            "sku": "SC003",
+            "name": "Leviosa",
+            "subtitle": "Stylish cafe chair",
+            "price": 2500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 23,
+            "size": [
+                "L",
+                "XL",
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/cinza.png",
+                "/amarelo.png"
+            ],
+            "category": "Chair",
+            "tags": [
+                "Chair",
+                "Sofa",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png",
+                "/leviosa.png"
+            ] 
+        },
+        {
+            "sku": "SS043",
+            "name": "Lolito",
+            "subtitle": "Luxury big sofa",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/cinco.png",
+            "customers": 6,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/bege.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png",
+                "/lolito.png"
+            ] 
+        },
+        {
+            "sku": "ST015",
+            "name": "Respira",
+            "subtitle": "Outdoor table and stool",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro-meia.png",
+            "customers": 15,
+            "size": [
+                "L",
+                "XL",
+                "S"
+            ],
+            "colors": [
+                "/marrom.png",
+                "/branco.png"
+            ],
+            "category": "Table",
+            "tags": [
+                "Table",
+                "Stool",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png",
+                "/respira.png"
+            ]
+        },
+        {
+            "sku": "SL015",
+            "name": "Grifo",
+            "subtitle": "Night Lamp",
+            "price": 1500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/branco.png",
+                "/marrom.png"
+            ],
+            "category": "Lamp",
+            "tags": [
+                "Lamp",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png",
+                "/grifo.png"
+            ]
+        },
+        {
+            "sku": "SM015",
+            "name": "Muggo",
+            "subtitle": "Small mug",
+            "price": 150000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/cinco.png",
+            "customers": 2,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/branco.png",
+                "/vermelho.png"
+            ],
+            "category": "Mug",
+            "tags": [
+                "Mug",
+                "Small",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png",
+                "/muggo.png"
+            ]
+        },
+        {
+            "sku": "SB015",
+            "name": "Pingky",
+            "subtitle": "Cute bed set",
+            "price": 14000000,
+            "onDiscount": true,
+            "discountPercentage": 50,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 20,
+            "size": [
+                "L",
+                "XL"
+            ],
+            "colors": [
+                "/branco.png",
+                "/preto.png",
+                "/marrom.png"
+            ],
+            "category": "Bed",
+            "tags": [
+                "Bed",
+                "Cute",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png",
+                "/pingky.png"
+            ]
+        },
+        {
+            "sku": "SP015",
+            "name": "Potty",
+            "subtitle": "Minimalist flower pot",
+            "price": 500000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": true,
+            "stars": "/quatro.png",
+            "customers": 8,
+            "size": [
+                "XS",
+                "S"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/laranja.png",
+                "/marrom.png",
+                "/verde.png"
+            ],
+            "category": "Pot",
+            "tags": [
+                "Pot",
+                "Flower",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png",
+                "/potty.png"
+            ]
+        },
+        {
+            "sku": "SS044",
+            "name": "Asgaard Sofa",
+            "subtitle": "Luxury big sofa",
+            "price": 250000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/quatro-meia.png",
+            "customers": 5,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/roxo.png",
+                "/preto.png",
+                "/amarelo.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/asgaard-1.png",
+                "/asgaard-2.png",
+                "/asgaard-3.png",
+                "/asgaard-4.png",
+                "/asgaard-5.png"
+            ]
+        },
+        {
+            "sku": "SS045",
+            "name": "Casaliving Wood",
+            "subtitle": "Stylish sofa",
+            "price": 270000000,
+            "onDiscount": false,
+            "discountPercentage": 0,
+            "isNew": false,
+            "stars": "/tres.png",
+            "customers": 50,
+            "size": [
+                "L",
+                "XL",
+                "XS"
+            ],
+            "colors": [
+                "/preto.png",
+                "/cinza.png",
+                "/azul.png"
+            ],
+            "category": "Sofa",
+            "tags": [
+                "Sofa",
+                "Chair",
+                "Home",
+                "Shop"
+            ],
+            
+            "imgUrl": [
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png",
+                "/casaliving.png"
+            ] 
+        }
+    ]
+}
