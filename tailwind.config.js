@@ -24,9 +24,9 @@ export default {
         filter: "#F9F1E7",
       },
       backgroundImage: {
-        "thumb": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/thumb.png')",
-        "home": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/fundos/fundoHome.png')",
-        "back": "url('https://desafio3furniro.s3.us-east-2.amazonaws.com/fundos/fundo.png')"
+        "thumb": "url('/thumb.png')",
+        "home": "url('/herohome.png')",
+        "back": "url('/fundo.png')"
       },
     },
   },
