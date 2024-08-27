@@ -32,8 +32,8 @@ export function Router() {
         )}
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
+        <Route path="/products/:sku" element={<ProductDetails />} />
       </Route>
-      <Route path="/products/:sku" element={<ProductDetails />} />
       <Route path="/login" element={<Login />} />
       <Route path="/loginCheckout" element={<LoginCheckout />} />
     </Routes>
