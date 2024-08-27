@@ -10,11 +10,9 @@ const OurProducts = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch(
-          "https://run.mocky.io/v3/41508ff4-254e-4a3d-8da8-47aea9b0d5d3"
-        );
+        const response = await fetch("http://localhost:5000/products");
         const data = await response.json();
-        setProducts(data.products);
+        setProducts(data);
       } catch (error) {
         console.log("Error fetching products: ", error);
       }
@@ -32,7 +30,7 @@ const OurProducts = () => {
         <h2 className="w-full text-center font-bold sm:text-4xl text-3xl">
           Our Products
         </h2>
-        <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 flex flex-wrap justify-center gap-8">
           {products.slice(0, visibleProducts).map((product) => (
             <CardItem
               key={product.sku}
