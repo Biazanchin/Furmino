@@ -39,7 +39,7 @@ npm install --force
 Inicie o json
 
 ```bash
-npm run serve
+npm run server
 ```
 
 Enquanto o json estiver rodando, abra outro terminal e rode a aplicação
